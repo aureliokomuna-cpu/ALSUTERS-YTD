@@ -1,0 +1,6 @@
+{
+  "name": "DEPARTEMEN ALSUTERS 2026",
+  "description": "Executive Business Intelligence Dashboard DEPARTEMEN ALSUTERS 2026 untuk memantau performa pencapaian target dan pertumbuhan departemen per zona.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
