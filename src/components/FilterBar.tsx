@@ -123,7 +123,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 : 'bg-zinc-50 border-zinc-200 text-zinc-900 focus:border-blue-500'
             }`}
           >
-            <option value="ALL">Semua Zona (4 Zona)</option>
+            <option value="ALL">Semua Zona (5 Zona)</option>
             {Object.values(ZONES_META).map(zone => (
               <option key={zone.code} value={zone.code}>
                 {zone.name} ({zone.shortName})

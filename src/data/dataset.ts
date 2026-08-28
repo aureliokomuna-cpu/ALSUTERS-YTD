@@ -19,12 +19,12 @@ export const ZONES_META: Record<string, ZoneMeta> = {
   LZ: {
     code: 'LZ',
     name: 'LIVING ZONE',
-    shortName: 'Living & Commercial',
+    shortName: 'Living',
     color: '#3B82F6', // Blue
     bgColor: 'rgba(59, 130, 246, 0.1)',
     borderColor: 'rgba(59, 130, 246, 0.3)',
     accentGradient: 'from-blue-500/20 to-indigo-500/20',
-    description: 'Sofa, Table & Cabinet, Textile, Decore, Organizer, Bathroom, Office & Commercial'
+    description: 'Sofa & Chair, Table & Cabinet, Home Textile, Home Decore, Home Organizer, Bathroom'
   },
   DZ: {
     code: 'DZ',
@@ -35,6 +35,16 @@ export const ZONES_META: Record<string, ZoneMeta> = {
     borderColor: 'rgba(16, 185, 129, 0.3)',
     accentGradient: 'from-emerald-500/20 to-teal-500/20',
     description: 'Dining, Kitchen, Classic, Homeware, Lighting, KELS Appliances'
+  },
+  CZ: {
+    code: 'CZ',
+    name: 'COMMERCIAL ZONE',
+    shortName: 'Commercial',
+    color: '#06B6D4', // Cyan/Teal
+    bgColor: 'rgba(6, 182, 212, 0.1)',
+    borderColor: 'rgba(6, 182, 212, 0.3)',
+    accentGradient: 'from-cyan-500/20 to-blue-500/20',
+    description: 'Office, Office Seating, Commercial & Business Solutions'
   },
   SZ: {
     code: 'SZ',
@@ -296,7 +306,7 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
   };
 
   // Group by Zone
-  const zoneCodes = ['LZ', 'DZ', 'SZ', 'ICF'];
+  const zoneCodes = ['LZ', 'DZ', 'CZ', 'SZ', 'ICF'];
   const zones: ZoneGroup[] = zoneCodes.map(zCode => {
     const zoneMeta = ZONES_META[zCode];
     const deptsInZone = filteredDepts.filter(d => d.zoneCode === zCode);

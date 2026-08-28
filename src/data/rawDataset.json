@@ -2977,8 +2977,8 @@
   {
     "code": "BP",
     "name": "Office",
-    "zoneCode": "LZ",
-    "zoneName": "LIVING ZONE",
+    "zoneCode": "CZ",
+    "zoneName": "COMMERCIAL ZONE",
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -3152,8 +3152,8 @@
   {
     "code": "BQ",
     "name": "Office Seating",
-    "zoneCode": "LZ",
-    "zoneName": "LIVING ZONE",
+    "zoneCode": "CZ",
+    "zoneName": "COMMERCIAL ZONE",
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -3327,8 +3327,8 @@
   {
     "code": "BR",
     "name": "Commercial & Business",
-    "zoneCode": "LZ",
-    "zoneName": "LIVING ZONE",
+    "zoneCode": "CZ",
+    "zoneName": "COMMERCIAL ZONE",
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {

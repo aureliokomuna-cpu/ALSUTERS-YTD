@@ -38,6 +38,7 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
   const [expandedZones, setExpandedZones] = useState<Record<string, boolean>>({
     LZ: true,
     DZ: true,
+    CZ: true,
     SZ: true,
     ICF: true
   });
