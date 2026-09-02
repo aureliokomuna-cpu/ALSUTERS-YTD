@@ -9,7 +9,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 import { DepartmentItem, FilterState, ZoneGroup } from '../types';
-import { formatIDR, formatPct, getMetricForPeriod, MONTH_KEYS, ZONES_META } from '../data/dataset';
+import { formatIDR, formatPct, getMetricForPeriod, MONTH_KEYS, ZONES_META, getActiveMonths } from '../data/dataset';
 
 interface ZoneComparisonHeatmapProps {
   zones: ZoneGroup[];
@@ -44,8 +44,11 @@ export const ZoneComparisonHeatmap: React.FC<ZoneComparisonHeatmapProps> = ({
   const topPerformers = rankedDepts.slice(0, 3);
   const underPerformers = [...rankedDepts].reverse().slice(0, 3);
 
-  // Active months for heatmap (Jan - Jul)
-  const heatmapMonths = MONTH_KEYS.slice(0, 7);
+  // Active months for heatmap (dynamically detected from dataset)
+  const heatmapMonths = React.useMemo(() => getActiveMonths(departments), [departments]);
+  const monthRangeLabel = heatmapMonths.length > 0 
+    ? `${heatmapMonths[0].slice(0, 3)} - ${heatmapMonths[heatmapMonths.length - 1].slice(0, 3)}`
+    : 'Jan - Agu';
 
   // Calculate Heatmap cell color based on % achievement
   const getHeatmapColor = (pct: number) => {
@@ -192,7 +195,7 @@ export const ZoneComparisonHeatmap: React.FC<ZoneComparisonHeatmapProps> = ({
               <p className="text-[11px] text-zinc-400">Intensitas performa zona per bulan (% Achv)</p>
             </div>
           </div>
-          <span className="text-[10px] font-semibold text-zinc-500">Jan - Jul</span>
+          <span className="text-[10px] font-semibold text-zinc-500">{monthRangeLabel}</span>
         </div>
 
         {/* Heatmap Grid */}

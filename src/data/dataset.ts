@@ -73,6 +73,8 @@ export const PERIOD_OPTIONS: { id: PeriodSelection; label: string; group: 'Overv
   { id: 'YTD_SEMESTER_1', label: 'Semester 1 (H1)', group: 'Overview' },
   { id: 'Q1', label: 'Kuartal 1 (Q1: Jan-Mar)', group: 'Quarter' },
   { id: 'Q2', label: 'Kuartal 2 (Q2: Apr-Jun)', group: 'Quarter' },
+  { id: 'Q3', label: 'Kuartal 3 (Q3: Jul-Sep)', group: 'Quarter' },
+  { id: 'Q4', label: 'Kuartal 4 (Q4: Okt-Des)', group: 'Quarter' },
   { id: 'JANUARI', label: 'Januari', group: 'Monthly' },
   { id: 'FEBRUARI', label: 'Februari', group: 'Monthly' },
   { id: 'MARET', label: 'Maret', group: 'Monthly' },
@@ -102,7 +104,229 @@ export const MONTH_KEYS: MonthKey[] = [
   'DESEMBER',
 ];
 
-export const initialDepartments: DepartmentItem[] = rawData as DepartmentItem[];
+export const DEPARTMENT_SQM: Record<string, { sqmEks: number; sqmRelayout: number }> = {
+  AM: { sqmEks: 259, sqmRelayout: 259 },
+  BA: { sqmEks: 2502, sqmRelayout: 2502 },
+  BB: { sqmEks: 857, sqmRelayout: 857 },
+  BC: { sqmEks: 1035, sqmRelayout: 1035 },
+  BD: { sqmEks: 946, sqmRelayout: 946 },
+  BE: { sqmEks: 179, sqmRelayout: 179 },
+  BF: { sqmEks: 751, sqmRelayout: 855 },
+  BG: { sqmEks: 392, sqmRelayout: 310 },
+  BH: { sqmEks: 43, sqmRelayout: 43 },
+  BI: { sqmEks: 457, sqmRelayout: 457 },
+  BJ: { sqmEks: 516, sqmRelayout: 516 },
+  BK: { sqmEks: 1192, sqmRelayout: 1192 },
+  BL: { sqmEks: 823, sqmRelayout: 823 },
+  BM: { sqmEks: 394, sqmRelayout: 394 },
+  BN: { sqmEks: 867, sqmRelayout: 867 },
+  BO: { sqmEks: 120, sqmRelayout: 120 },
+  BP: { sqmEks: 871, sqmRelayout: 871 },
+  BQ: { sqmEks: 425, sqmRelayout: 425 },
+  BR: { sqmEks: 452, sqmRelayout: 452 },
+  BS: { sqmEks: 493, sqmRelayout: 493 },
+  DA: { sqmEks: 29, sqmRelayout: 29 },
+  DB: { sqmEks: 116, sqmRelayout: 116 },
+  DC: { sqmEks: 116, sqmRelayout: 116 },
+  DD: { sqmEks: 13, sqmRelayout: 13 },
+  'ALL KELS': { sqmEks: 274, sqmRelayout: 274 },
+  FA: { sqmEks: 39, sqmRelayout: 39 },
+  FB: { sqmEks: 0, sqmRelayout: 0 },
+  AJ: { sqmEks: 0, sqmRelayout: 0 }
+};
+
+export function getDeptSQM(code: string): number {
+  return DEPARTMENT_SQM[code]?.sqmRelayout ?? 0;
+}
+
+export const initialDepartments: DepartmentItem[] = ((rawData as unknown) as DepartmentItem[]).map(d => {
+  const sqmInfo = DEPARTMENT_SQM[d.code] || { sqmEks: 0, sqmRelayout: 0 };
+  return {
+    ...d,
+    sqm: d.sqm ?? sqmInfo.sqmRelayout,
+    sqmEks: d.sqmEks ?? sqmInfo.sqmEks
+  };
+});
+
+/**
+ * Determine all months that have recorded actual targets or achievements in the active dataset
+ */
+export function getActiveMonths(departments: DepartmentItem[]): MonthKey[] {
+  const active: MonthKey[] = [];
+  
+  MONTH_KEYS.forEach(mKey => {
+    const hasData = departments.some(d => {
+      const m = d.monthly[mKey];
+      return m && (m.target > 0 || m.achievement > 0);
+    });
+    if (hasData) {
+      active.push(mKey);
+    }
+  });
+
+  return active.length > 0 ? active : ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS'];
+}
+
+/**
+ * Returns the list of month keys included in the selected period filter that are active.
+ */
+export function getMonthsInPeriod(period: PeriodSelection, activeMonths: MonthKey[] = MONTH_KEYS): MonthKey[] {
+  if (period === 'YTD') {
+    return activeMonths;
+  }
+  if (period === 'YTD_SEMESTER_1') {
+    const sem1: MonthKey[] = ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI'];
+    return sem1.filter(m => activeMonths.includes(m));
+  }
+  if (period === 'Q1') {
+    const q1: MonthKey[] = ['JANUARI', 'FEBRUARI', 'MARET'];
+    return q1.filter(m => activeMonths.includes(m));
+  }
+  if (period === 'Q2') {
+    const q2: MonthKey[] = ['APRIL', 'MEI', 'JUNI'];
+    return q2.filter(m => activeMonths.includes(m));
+  }
+  if (period === 'Q3') {
+    const q3: MonthKey[] = ['JULI', 'AGUSTUS', 'SEPTEMBER'];
+    return q3.filter(m => activeMonths.includes(m));
+  }
+  if (period === 'Q4') {
+    const q4: MonthKey[] = ['OKTOBER', 'NOVEMBER', 'DESEMBER'];
+    return q4.filter(m => activeMonths.includes(m));
+  }
+  if (MONTH_KEYS.includes(period as MonthKey)) {
+    return [period as MonthKey];
+  }
+  return activeMonths.length > 0 ? activeMonths : ['JANUARI'];
+}
+
+/**
+ * Calculate Average Monthly Space Productivity for a single department in a given period.
+ * Formula per user request:
+ * For each month in the period: calculate productivity = Sales(month) / SQM.
+ * Then take the average across all active months in that period.
+ */
+export function calculateDeptPeriodProductivity(
+  dept: DepartmentItem,
+  period: PeriodSelection,
+  activeMonths: MonthKey[] = MONTH_KEYS,
+  mode: 'TOTAL_RESTATED' | 'LIKE_FOR_LIKE' = 'TOTAL_RESTATED'
+): number {
+  const deptSqm = dept.sqm ?? DEPARTMENT_SQM[dept.code]?.sqmRelayout ?? 0;
+  if (deptSqm <= 0) return 0;
+
+  const periodMonths = getMonthsInPeriod(period, activeMonths);
+  if (periodMonths.length === 0) return 0;
+
+  let sumMonthlyProductivity = 0;
+  periodMonths.forEach(mKey => {
+    let monthlySales = 0;
+    if (mode === 'LIKE_FOR_LIKE' && dept.lfl && dept.lfl[mKey]) {
+      monthlySales = dept.lfl[mKey].achievementLFL || dept.monthly[mKey]?.achievement || 0;
+    } else {
+      monthlySales = dept.monthly[mKey]?.achievement || 0;
+    }
+    const monthProductivity = monthlySales / deptSqm;
+    sumMonthlyProductivity += monthProductivity;
+  });
+
+  return sumMonthlyProductivity / periodMonths.length;
+}
+
+/**
+ * Calculate Average Monthly Space Productivity for a group of departments (Zone or All Store).
+ * Formula per user request:
+ * For each month in the period: monthly group productivity = Total Sales(month) / Total SQM.
+ * Then take the average across all active months in that period.
+ */
+export function calculateGroupPeriodProductivity(
+  depts: DepartmentItem[],
+  period: PeriodSelection,
+  activeMonths: MonthKey[] = MONTH_KEYS,
+  mode: 'TOTAL_RESTATED' | 'LIKE_FOR_LIKE' = 'TOTAL_RESTATED'
+): { totalSqm: number; avgMonthlyProductivity: number } {
+  let totalSqm = 0;
+  depts.forEach(d => {
+    const dSqm = d.sqm ?? DEPARTMENT_SQM[d.code]?.sqmRelayout ?? 0;
+    totalSqm += dSqm;
+  });
+
+  if (totalSqm <= 0) return { totalSqm: 0, avgMonthlyProductivity: 0 };
+
+  const periodMonths = getMonthsInPeriod(period, activeMonths);
+  if (periodMonths.length === 0) return { totalSqm, avgMonthlyProductivity: 0 };
+
+  let sumMonthlyProductivity = 0;
+  periodMonths.forEach(mKey => {
+    let monthSales = 0;
+    depts.forEach(d => {
+      if (mode === 'LIKE_FOR_LIKE' && d.lfl && d.lfl[mKey]) {
+        monthSales += d.lfl[mKey].achievementLFL || d.monthly[mKey]?.achievement || 0;
+      } else {
+        monthSales += d.monthly[mKey]?.achievement || 0;
+      }
+    });
+    const monthlyProductivity = monthSales / totalSqm;
+    sumMonthlyProductivity += monthlyProductivity;
+  });
+
+  const avgMonthlyProductivity = sumMonthlyProductivity / periodMonths.length;
+  return { totalSqm, avgMonthlyProductivity };
+}
+
+/**
+ * Format Square Meters (SQM)
+ */
+export function formatSQM(sqm: number): string {
+  if (sqm === 0 || isNaN(sqm)) return '0 m²';
+  return `${new Intl.NumberFormat('id-ID').format(Math.round(sqm))} m²`;
+}
+
+/**
+ * Format Sales Productivity per SQM (Rp/m²)
+ */
+export function formatProductivity(value: number, compact = false): string {
+  if (value === 0 || isNaN(value)) return 'Rp 0 / m²';
+  const absVal = Math.abs(value);
+  const isNegative = value < 0;
+
+  if (compact) {
+    if (absVal >= 1_000_000_000) {
+      return `${isNegative ? '-' : ''}Rp ${(absVal / 1_000_000_000).toFixed(2)} M/m²`;
+    }
+    if (absVal >= 1_000_000) {
+      return `${isNegative ? '-' : ''}Rp ${(absVal / 1_000_000).toFixed(2)} Jt/m²`;
+    }
+    if (absVal >= 1_000) {
+      return `${isNegative ? '-' : ''}Rp ${(absVal / 1_000).toFixed(0)} Rb/m²`;
+    }
+  }
+
+  return `${isNegative ? '-' : ''}Rp ${new Intl.NumberFormat('id-ID').format(Math.round(absVal))} / m²`;
+}
+
+/**
+ * Color class for Space Productivity based on user rule:
+ * >= 1,000,000 -> Bold Biru (Blue)
+ * < 1,000,000 -> Bold Merah (Red)
+ */
+export function getProductivityColorClass(productivity: number, isDarkMode = true): string {
+  if (productivity >= 1_000_000) {
+    return isDarkMode ? 'text-blue-400 font-bold' : 'text-blue-600 font-bold';
+  }
+  return isDarkMode ? 'text-rose-400 font-bold' : 'text-rose-600 font-bold';
+}
+
+export function getProductivityBadgeClass(productivity: number, isDarkMode = true): string {
+  if (productivity >= 1_000_000) {
+    return isDarkMode 
+      ? 'bg-blue-500/10 text-blue-400 border-blue-500/20 font-bold' 
+      : 'bg-blue-50 text-blue-700 border-blue-200 font-bold';
+  }
+  return isDarkMode 
+    ? 'bg-rose-500/10 text-rose-400 border-rose-500/20 font-bold' 
+    : 'bg-rose-50 text-rose-700 border-rose-200 font-bold';
+}
 
 /**
  * Format currency in Indonesian Rupiah
@@ -236,6 +460,8 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
   // Individual departmental units (excluding zone totals and grand total)
   const regularDepts = items.filter(i => !i.isZoneTotal && !i.isGrandTotal);
 
+  const activeMonths = getActiveMonths(items);
+
   // Filtered department list based on user selections
   const filteredDepts = regularDepts.filter(dept => {
     if (filter.zoneCode !== 'ALL' && dept.zoneCode !== filter.zoneCode) return false;
@@ -287,6 +513,11 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
   const totalGrowthPct = totalActLY > 0 ? ((totalAchv - totalActLY) / totalActLY) * 100 : 0;
   const growthAmount = totalAchv - totalActLY;
 
+  // Space Productivity for All Store / filtered selection (Average Monthly Sales / SQM)
+  const globalProdInfo = calculateGroupPeriodProductivity(filteredDepts, filter.period, activeMonths, 'TOTAL_RESTATED');
+  const totalSqm = globalProdInfo.totalSqm;
+  const spaceProductivity = globalProdInfo.avgMonthlyProductivity;
+
   const lflGrowthPct = totalLflLY > 0 ? ((totalLflAchv - totalLflLY) / totalLflLY) * 100 : 0;
 
   const globalKPI: GlobalKPISummary = {
@@ -296,6 +527,8 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
     actualLY: totalActLY,
     growthPct: totalGrowthPct,
     growthAmount,
+    totalSqm,
+    spaceProductivity,
     lflAchievement: totalLflAchv,
     lflActualLY: totalLflLY,
     lflGrowthPct,
@@ -324,6 +557,11 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
 
     const zAchvPct = zTarget > 0 ? (zAchv / zTarget) * 100 : 0;
     const zGrowthPct = zActLY > 0 ? ((zAchv - zActLY) / zActLY) * 100 : 0;
+    
+    // Average Monthly Space Productivity for Zone
+    const zoneProdInfo = calculateGroupPeriodProductivity(deptsInZone, filter.period, activeMonths, filter.metricMode);
+    const zTotalSqm = zoneProdInfo.totalSqm;
+    const zSpaceProductivity = zoneProdInfo.avgMonthlyProductivity;
 
     return {
       zoneCode: zCode,
@@ -334,6 +572,8 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
       actualLY: zActLY,
       growthPct: zGrowthPct,
       growthAmount: zAchv - zActLY,
+      totalSqm: zTotalSqm,
+      spaceProductivity: zSpaceProductivity,
       status: getPerformanceStatus(zAchvPct),
       departments: deptsInZone
     };
@@ -343,6 +583,8 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
   const sortedDepts = [...filteredDepts].sort((a, b) => {
     const mA = getMetricForPeriod(a, filter.period, filter.metricMode);
     const mB = getMetricForPeriod(b, filter.period, filter.metricMode);
+    const sqmA = a.sqm ?? DEPARTMENT_SQM[a.code]?.sqmRelayout ?? 0;
+    const sqmB = b.sqm ?? DEPARTMENT_SQM[b.code]?.sqmRelayout ?? 0;
 
     let valA = 0;
     let valB = 0;
@@ -359,6 +601,12 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
     } else if (filter.sortBy === 'target') {
       valA = mA.target;
       valB = mB.target;
+    } else if (filter.sortBy === 'sqm') {
+      valA = sqmA;
+      valB = sqmB;
+    } else if (filter.sortBy === 'productivity') {
+      valA = calculateDeptPeriodProductivity(a, filter.period, activeMonths, filter.metricMode);
+      valB = calculateDeptPeriodProductivity(b, filter.period, activeMonths, filter.metricMode);
     } else {
       return filter.sortOrder === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);
     }

@@ -25,7 +25,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import { DepartmentItem, FilterState, ZoneGroup } from '../types';
-import { formatIDR, formatPct, getMetricForPeriod, MONTH_KEYS, ZONES_META } from '../data/dataset';
+import { formatIDR, formatPct, getMetricForPeriod, MONTH_KEYS, ZONES_META, getActiveMonths } from '../data/dataset';
 
 interface ComboPerformanceChartProps {
   zones: ZoneGroup[];
@@ -103,7 +103,7 @@ export const ComboPerformanceChart: React.FC<ComboPerformanceChartProps> = ({
   // 3. Monthly Trend for ALL Departments
   const monthlyTrendData = React.useMemo(() => {
     const activeDepts = departments;
-    const months = MONTH_KEYS.slice(0, 7); // Jan to Jul active data
+    const months = getActiveMonths(departments);
 
     return months.map(mKey => {
       let mTarget = 0;
@@ -141,7 +141,7 @@ export const ComboPerformanceChart: React.FC<ComboPerformanceChartProps> = ({
     
     // Find all depts belonging to this zone
     const zoneDepts = departments.filter(d => d.zoneCode === activeZoneCode);
-    const months = MONTH_KEYS.slice(0, 7); // Jan to Jul
+    const months = getActiveMonths(departments);
 
     return months.map(mKey => {
       let mTarget = 0;

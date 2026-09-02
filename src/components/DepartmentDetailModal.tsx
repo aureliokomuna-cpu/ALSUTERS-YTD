@@ -8,7 +8,8 @@ import {
   Layers, 
   Sparkles,
   ArrowUpRight,
-  ArrowDownRight
+  ArrowDownRight,
+  Maximize2
 } from 'lucide-react';
 import {
   ResponsiveContainer,
@@ -22,7 +23,17 @@ import {
   CartesianGrid
 } from 'recharts';
 import { DepartmentItem } from '../types';
-import { formatIDR, formatPct, MONTH_KEYS, ZONES_META } from '../data/dataset';
+import { 
+  calculateDeptPeriodProductivity,
+  formatIDR, 
+  formatPct, 
+  formatProductivity, 
+  formatSQM, 
+  getDeptSQM, 
+  getProductivityColorClass, 
+  MONTH_KEYS, 
+  ZONES_META 
+} from '../data/dataset';
 
 interface DepartmentDetailModalProps {
   dept: DepartmentItem | null;
@@ -38,6 +49,11 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
   if (!dept) return null;
 
   const zoneMeta = ZONES_META[dept.zoneCode];
+  const deptSqm = dept.sqm ?? getDeptSQM(dept.code);
+  const ytdMetric = dept.monthly['YTD'] || { target: 0, achievement: 0, achievementPct: 0, actualLY: 0, growthPct: 0 };
+  const ytdLFL = dept.lfl && dept.lfl['YTD'] ? dept.lfl['YTD'] : null;
+  const ytdProductivity = calculateDeptPeriodProductivity(dept, 'YTD');
+  const isHighProductivity = ytdProductivity >= 1_000_000;
 
   // Prepare monthly chart data
   const chartData = MONTH_KEYS.map(mKey => {
@@ -59,9 +75,6 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
       lflAchvRaw: lfl ? lfl.achievementLFL : null
     };
   });
-
-  const ytdMetric = dept.monthly['YTD'] || { target: 0, achievement: 0, achievementPct: 0, actualLY: 0, growthPct: 0 };
-  const ytdLFL = dept.lfl && dept.lfl['YTD'] ? dept.lfl['YTD'] : null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
@@ -87,7 +100,7 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
                 </span>
               </div>
               <p className={`text-xs mt-0.5 ${isDarkMode ? 'text-zinc-400' : 'text-zinc-500'}`}>
-                Monthly Performance Breakdown & Like-for-Like (LFL) Growth Tracking
+                Luas Relayout: <strong className="text-zinc-200 font-mono">{formatSQM(deptSqm)}</strong> {dept.sqmEks ? `(Eks: ${formatSQM(dept.sqmEks)})` : ''} • Kinerja Bulanan & Space Productivity
               </p>
             </div>
           </div>
@@ -104,10 +117,10 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
         <div className="flex-1 overflow-y-auto p-5 sm:p-6 space-y-6">
           
           {/* Quick Stat Highlights */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             <div className={`p-4 rounded-xl border ${isDarkMode ? 'bg-[#121214] border-zinc-800' : 'bg-zinc-50 border-zinc-200'}`}>
               <span className="text-[11px] font-medium text-zinc-400 block">Total Realisasi YTD</span>
-              <span className="text-lg font-bold text-emerald-400 font-mono">
+              <span className="text-base sm:text-lg font-bold text-emerald-400 font-mono">
                 {formatIDR(ytdMetric.achievement, true)}
               </span>
               <span className="text-[10px] text-zinc-500 block mt-0.5">
@@ -117,7 +130,7 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
 
             <div className={`p-4 rounded-xl border ${isDarkMode ? 'bg-[#121214] border-zinc-800' : 'bg-zinc-50 border-zinc-200'}`}>
               <span className="text-[11px] font-medium text-zinc-400 block">Target YTD</span>
-              <span className="text-lg font-bold text-blue-400 font-mono">
+              <span className="text-base sm:text-lg font-bold text-blue-400 font-mono">
                 {formatIDR(ytdMetric.target, true)}
               </span>
               <span className="text-[10px] text-zinc-500 block mt-0.5">
@@ -127,7 +140,7 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
 
             <div className={`p-4 rounded-xl border ${isDarkMode ? 'bg-[#121214] border-zinc-800' : 'bg-zinc-50 border-zinc-200'}`}>
               <span className="text-[11px] font-medium text-zinc-400 block">% Pencapaian YTD</span>
-              <span className={`text-lg font-extrabold font-mono ${ytdMetric.achievementPct >= 100 ? 'text-emerald-400' : 'text-rose-400'}`}>
+              <span className={`text-base sm:text-lg font-extrabold font-mono ${ytdMetric.achievementPct >= 100 ? 'text-emerald-400' : 'text-rose-400'}`}>
                 {formatPct(ytdMetric.achievementPct)}
               </span>
               <span className="text-[10px] text-zinc-500 block mt-0.5">
@@ -137,12 +150,36 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
 
             <div className={`p-4 rounded-xl border ${isDarkMode ? 'bg-[#121214] border-zinc-800' : 'bg-zinc-50 border-zinc-200'}`}>
               <span className="text-[11px] font-medium text-zinc-400 block">% Growth YoY</span>
-              <span className={`text-lg font-extrabold font-mono flex items-center gap-1 ${ytdMetric.growthPct >= 0 ? 'text-blue-400' : 'text-amber-400'}`}>
+              <span className={`text-base sm:text-lg font-extrabold font-mono flex items-center gap-1 ${ytdMetric.growthPct >= 0 ? 'text-blue-400' : 'text-amber-400'}`}>
                 {ytdMetric.growthPct >= 0 ? <ArrowUpRight className="w-4 h-4 text-emerald-400" /> : <ArrowDownRight className="w-4 h-4 text-rose-400" />}
                 {formatPct(ytdMetric.growthPct, true)}
               </span>
               <span className="text-[10px] text-zinc-500 block mt-0.5">
                 LFL: {ytdLFL ? formatPct(ytdLFL.growthPctLFL, true) : '-'}
+              </span>
+            </div>
+
+            {/* Space Productivity Card */}
+            <div className={`col-span-2 sm:col-span-1 p-4 rounded-xl border transition-all ${
+              isDarkMode 
+                ? isHighProductivity 
+                  ? 'bg-blue-950/20 border-blue-900/50' 
+                  : 'bg-rose-950/20 border-rose-900/50'
+                : isHighProductivity 
+                  ? 'bg-blue-50/80 border-blue-200' 
+                  : 'bg-rose-50/80 border-rose-200'
+            }`}>
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] font-medium text-zinc-400 block">Productivity Space (Avg/Bln)</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded font-mono font-bold bg-zinc-800 text-zinc-300">
+                  {formatSQM(deptSqm)}
+                </span>
+              </div>
+              <span className={`text-base sm:text-lg font-mono block mt-1 ${getProductivityColorClass(ytdProductivity, isDarkMode)}`}>
+                {formatProductivity(ytdProductivity, true)}
+              </span>
+              <span className={`text-[10px] font-bold block mt-0.5 ${isHighProductivity ? 'text-blue-400' : 'text-rose-400'}`}>
+                {isHighProductivity ? '≥ Rp 1 Jt (Tinggi)' : '< Rp 1 Jt (Rendah)'}
               </span>
             </div>
           </div>
@@ -182,7 +219,7 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
 
           {/* Monthly Breakdown Table */}
           <div className="overflow-x-auto rounded-xl border border-zinc-800">
-            <table className="w-full text-xs text-left">
+            <table className="w-full text-xs text-left font-mono">
               <thead className={`font-semibold uppercase tracking-wider ${isDarkMode ? 'bg-[#121214] text-zinc-400' : 'bg-zinc-100 text-zinc-600'}`}>
                 <tr>
                   <th className="py-2.5 px-3">Bulan</th>
@@ -191,6 +228,7 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
                   <th className="py-2.5 px-3 text-right">% Achv</th>
                   <th className="py-2.5 px-3 text-right">Act LY</th>
                   <th className="py-2.5 px-3 text-right">% Growth</th>
+                  <th className="py-2.5 px-3 text-right">Productivity (Rp/m²)</th>
                   <th className="py-2.5 px-3 text-right">LFL Growth</th>
                 </tr>
               </thead>
@@ -198,24 +236,30 @@ export const DepartmentDetailModal: React.FC<DepartmentDetailModalProps> = ({
                 {MONTH_KEYS.map(mKey => {
                   const m = dept.monthly[mKey] || { target: 0, achievement: 0, achievementPct: 0, actualLY: 0, growthPct: 0 };
                   const l = dept.lfl && dept.lfl[mKey] ? dept.lfl[mKey] : null;
+                  const mProductivity = deptSqm > 0 ? m.achievement / deptSqm : 0;
 
                   return (
                     <tr key={mKey} className={isDarkMode ? 'hover:bg-zinc-800/30' : 'hover:bg-zinc-50'}>
-                      <td className="py-2 px-3 font-semibold text-zinc-300">{mKey}</td>
-                      <td className="py-2 px-3 text-right font-mono text-zinc-400">{formatIDR(m.target)}</td>
-                      <td className="py-2 px-3 text-right font-mono font-bold text-zinc-100">{formatIDR(m.achievement)}</td>
-                      <td className="py-2 px-3 text-right font-mono">
+                      <td className="py-2 px-3 font-semibold text-zinc-300 font-sans">{mKey}</td>
+                      <td className="py-2 px-3 text-right text-zinc-400">{formatIDR(m.target)}</td>
+                      <td className="py-2 px-3 text-right font-bold text-zinc-100">{formatIDR(m.achievement)}</td>
+                      <td className="py-2 px-3 text-right">
                         <span className={m.achievementPct >= 100 ? 'text-emerald-400 font-bold' : m.achievementPct > 0 ? 'text-rose-400' : 'text-zinc-500'}>
                           {m.achievementPct > 0 ? formatPct(m.achievementPct) : '-'}
                         </span>
                       </td>
-                      <td className="py-2 px-3 text-right font-mono text-zinc-400">{formatIDR(m.actualLY)}</td>
-                      <td className="py-2 px-3 text-right font-mono">
+                      <td className="py-2 px-3 text-right text-zinc-400">{formatIDR(m.actualLY)}</td>
+                      <td className="py-2 px-3 text-right">
                         <span className={m.growthPct >= 0 ? 'text-emerald-400' : 'text-rose-400'}>
                           {m.actualLY > 0 ? formatPct(m.growthPct, true) : '-'}
                         </span>
                       </td>
-                      <td className="py-2 px-3 text-right font-mono text-blue-400">
+                      <td className="py-2 px-3 text-right">
+                        <span className={getProductivityColorClass(mProductivity, isDarkMode)}>
+                          {formatProductivity(mProductivity, true)}
+                        </span>
+                      </td>
+                      <td className="py-2 px-3 text-right text-blue-400">
                         {l && l.growthPctLFL !== 0 ? formatPct(l.growthPctLFL, true) : '-'}
                       </td>
                     </tr>

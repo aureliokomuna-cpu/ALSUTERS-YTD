@@ -10,10 +10,22 @@ import {
   ExternalLink,
   Layers,
   ArrowUpRight,
-  ArrowDownRight
+  ArrowDownRight,
+  Maximize2
 } from 'lucide-react';
 import { DepartmentItem, FilterState, ZoneGroup } from '../types';
-import { formatIDR, formatPct, getMetricForPeriod, getPerformanceStatus, ZONES_META } from '../data/dataset';
+import { 
+  calculateDeptPeriodProductivity,
+  formatIDR, 
+  formatPct, 
+  formatProductivity, 
+  formatSQM, 
+  getDeptSQM, 
+  getMetricForPeriod, 
+  getPerformanceStatus, 
+  getProductivityColorClass, 
+  ZONES_META 
+} from '../data/dataset';
 
 interface ZoneDetailTableProps {
   zones: ZoneGroup[];
@@ -60,7 +72,7 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
     setExpandedZones({});
   };
 
-  const handleSort = (field: 'achievementPct' | 'growthPct' | 'achievement' | 'target' | 'name') => {
+  const handleSort = (field: 'achievementPct' | 'growthPct' | 'achievement' | 'target' | 'name' | 'sqm' | 'productivity') => {
     setFilter(prev => ({
       ...prev,
       sortBy: field,
@@ -115,7 +127,7 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
             </span>
           </div>
           <p className={`text-xs mt-0.5 ${isDarkMode ? 'text-zinc-400' : 'text-zinc-500'}`}>
-            Click any row to view 12-month historical trends and Like-For-Like (LFL) drilldown.
+            Disertai luas departemen relayout (SQM) & produktivitas ruang (Rp/m²: <strong className="text-blue-400 font-bold">≥ 1 Juta (Biru)</strong>, <strong className="text-rose-400 font-bold">&lt; 1 Juta (Merah)</strong>).
           </p>
         </div>
 
@@ -156,6 +168,20 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
                 </div>
               </th>
 
+              <th className="py-3.5 px-3 text-right cursor-pointer hover:text-zinc-200" onClick={() => handleSort('sqm')}>
+                <div className="flex items-center justify-end gap-1.5">
+                  <span>Luas (SQM)</span>
+                  <ArrowUpDown className="w-3 h-3" />
+                </div>
+              </th>
+
+              <th className="py-3.5 px-3 text-right cursor-pointer hover:text-zinc-200" onClick={() => handleSort('productivity')}>
+                <div className="flex items-center justify-end gap-1.5" title="Produktivitas Ruang Rata-Rata per Bulan (Bagi per bulan lalu hitung rata-ratanya)">
+                  <span>Productivity Space (Avg/Bln)</span>
+                  <ArrowUpDown className="w-3 h-3" />
+                </div>
+              </th>
+
               <th className="py-3.5 px-4 text-right cursor-pointer hover:text-zinc-200" onClick={() => handleSort('target')}>
                 <div className="flex items-center justify-end gap-1.5">
                   <span>Target {filter.period}</span>
@@ -184,7 +210,7 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
                 </div>
               </th>
 
-              <th className="py-3.5 px-4 text-right hidden md:table-cell">
+              <th className="py-3.5 px-4 text-right hidden lg:table-cell">
                 <span>Actual LY</span>
               </th>
 
@@ -228,6 +254,18 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
                       </div>
                     </td>
 
+                    {/* Zone Total SQM */}
+                    <td className="py-3.5 px-3 text-right font-mono font-semibold text-zinc-300">
+                      {formatSQM(zone.totalSqm)}
+                    </td>
+
+                    {/* Zone Space Productivity */}
+                    <td className="py-3.5 px-3 text-right font-mono">
+                      <span className={getProductivityColorClass(zone.spaceProductivity, isDarkMode)}>
+                        {formatProductivity(zone.spaceProductivity, true)}
+                      </span>
+                    </td>
+
                     <td className="py-3.5 px-4 text-right font-mono font-medium text-zinc-300">
                       {formatIDR(zone.target)}
                     </td>
@@ -261,7 +299,7 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
                       </span>
                     </td>
 
-                    <td className="py-3.5 px-4 text-right font-mono text-zinc-400 hidden md:table-cell">
+                    <td className="py-3.5 px-4 text-right font-mono text-zinc-400 hidden lg:table-cell">
                       {formatIDR(zone.actualLY)}
                     </td>
 
@@ -274,6 +312,8 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
                   {isExpanded && zone.departments.map(dept => {
                     const metric = getMetricForPeriod(dept, filter.period, filter.metricMode);
                     const status = getPerformanceStatus(metric.achievementPct);
+                    const deptSqm = dept.sqm ?? getDeptSQM(dept.code);
+                    const deptProductivity = calculateDeptPeriodProductivity(dept, filter.period, undefined, filter.metricMode);
 
                     return (
                       <tr
@@ -299,6 +339,18 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
                           </div>
                         </td>
 
+                        {/* Department SQM */}
+                        <td className="py-3 px-3 text-right font-mono text-xs text-zinc-300">
+                          {formatSQM(deptSqm)}
+                        </td>
+
+                        {/* Department Space Productivity (Bold Blue >= 1M, Bold Red < 1M) */}
+                        <td className="py-3 px-3 text-right font-mono text-xs">
+                          <span className={getProductivityColorClass(deptProductivity, isDarkMode)}>
+                            {formatProductivity(deptProductivity, true)}
+                          </span>
+                        </td>
+
                         <td className="py-3 px-4 text-right font-mono text-xs text-zinc-400">
                           {formatIDR(metric.target)}
                         </td>
@@ -319,7 +371,7 @@ export const ZoneDetailTable: React.FC<ZoneDetailTableProps> = ({
                           </span>
                         </td>
 
-                        <td className="py-3 px-4 text-right font-mono text-xs text-zinc-400 hidden md:table-cell">
+                        <td className="py-3 px-4 text-right font-mono text-xs text-zinc-400 hidden lg:table-cell">
                           {formatIDR(metric.actualLY)}
                         </td>
 

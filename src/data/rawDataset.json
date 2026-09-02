@@ -64,113 +64,46 @@
         "growthPct": 10
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 4549200000,
+        "achievement": 5055230005,
+        "achievementPct": 111.1,
+        "actualLY": 4478710740,
+        "growthPct": 12.9
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 4406454387,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 4134719725,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 4348001893,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 5615430972,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 31403400000,
-        "achievement": 36072963475,
-        "achievementPct": 114.9,
-        "actualLY": 30153662136,
-        "growthPct": 19.6
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 3802930324,
-        "actualLYLFL": 3315020944,
-        "growthPctLFL": 14.7
-      },
-      "FEBRUARI": {
-        "achievementLFL": 2842869784,
-        "actualLYLFL": 2505471839,
-        "growthPctLFL": 13.5
-      },
-      "MARET": {
-        "achievementLFL": 3185114514,
-        "actualLYLFL": 4084569670,
-        "growthPctLFL": -22
-      },
-      "APRIL": {
-        "achievementLFL": 2594698096,
-        "actualLYLFL": 2780035729,
-        "growthPctLFL": -6.7
-      },
-      "MEI": {
-        "achievementLFL": 2732758541,
-        "actualLYLFL": 2633914312,
-        "growthPctLFL": 3.8
-      },
-      "JUNI": {
-        "achievementLFL": 2201625025,
-        "actualLYLFL": 3524665917,
-        "growthPctLFL": -37.5
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 17359996284,
-        "actualLYLFL": 18843678411,
-        "growthPctLFL": -7.9
+        "target": 35952600000,
+        "achievement": 41128193480,
+        "achievementPct": 114.4,
+        "actualLY": 34632372875,
+        "growthPct": 18.8
       }
     }
   },
@@ -239,113 +172,46 @@
         "growthPct": 5.8
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 2067800000,
+        "achievement": 1842956149,
+        "achievementPct": 89.1,
+        "actualLY": 1802111959,
+        "growthPct": 2.3
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1927028368,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1722596912,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1875607510,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2827554933,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 13627500000,
-        "achievement": 13091122718,
-        "achievementPct": 96.1,
-        "actualLY": 12632233470,
-        "growthPct": 3.6
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 1597500528,
-        "actualLYLFL": 1910503506,
-        "growthPctLFL": -16.4
-      },
-      "FEBRUARI": {
-        "achievementLFL": 1252381620,
-        "actualLYLFL": 1448333260,
-        "growthPctLFL": -13.5
-      },
-      "MARET": {
-        "achievementLFL": 1657185596,
-        "actualLYLFL": 1799225991,
-        "growthPctLFL": -7.9
-      },
-      "APRIL": {
-        "achievementLFL": 1150270794,
-        "actualLYLFL": 1473700532,
-        "growthPctLFL": -21.9
-      },
-      "MEI": {
-        "achievementLFL": 1218011413,
-        "actualLYLFL": 1391863717,
-        "growthPctLFL": -12.5
-      },
-      "JUNI": {
-        "achievementLFL": 1132247182,
-        "actualLYLFL": 1806351131,
-        "growthPctLFL": -37.3
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 8007597133,
-        "actualLYLFL": 9829978137,
-        "growthPctLFL": -18.5
+        "target": 15695300000,
+        "achievement": 14934078867,
+        "achievementPct": 95.2,
+        "actualLY": 14434345427,
+        "growthPct": 3.5
       }
     }
   },
@@ -414,113 +280,46 @@
         "growthPct": 9.9
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 816400000,
+        "achievement": 880235075,
+        "achievementPct": 107.8,
+        "actualLY": 767082288,
+        "growthPct": 14.8
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 702164012,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 707052819,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 777125478,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 922863393,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 5620200000,
-        "achievement": 5784799601,
-        "achievementPct": 102.9,
-        "actualLY": 5316222334,
-        "growthPct": 8.8
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 713188721,
-        "actualLYLFL": 663987906,
-        "growthPctLFL": 7.4
-      },
-      "FEBRUARI": {
-        "achievementLFL": 652851553,
-        "actualLYLFL": 506509856,
-        "growthPctLFL": 28.9
-      },
-      "MARET": {
-        "achievementLFL": 819317624,
-        "actualLYLFL": 805634197,
-        "growthPctLFL": 1.7
-      },
-      "APRIL": {
-        "achievementLFL": 477887008,
-        "actualLYLFL": 530155798,
-        "growthPctLFL": -9.9
-      },
-      "MEI": {
-        "achievementLFL": 534604032,
-        "actualLYLFL": 556835729,
-        "growthPctLFL": -4
-      },
-      "JUNI": {
-        "achievementLFL": 454232084,
-        "actualLYLFL": 661172081,
-        "growthPctLFL": -31.3
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 3652081022,
-        "actualLYLFL": 3724295567,
-        "growthPctLFL": -1.9
+        "target": 6436600000,
+        "achievement": 6665034676,
+        "achievementPct": 103.5,
+        "actualLY": 6083304623,
+        "growthPct": 9.6
       }
     }
   },
@@ -589,113 +388,46 @@
         "growthPct": 7.9
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 759900000,
+        "achievement": 962639077,
+        "achievementPct": 126.7,
+        "actualLY": 755015097,
+        "growthPct": 27.5
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 812659243,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 904524506,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 911185870,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1129663304,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 6846500000,
-        "achievement": 6947560101,
-        "achievementPct": 101.5,
-        "actualLY": 6570541498,
-        "growthPct": 5.7
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 831588322,
-        "actualLYLFL": 1013005453,
-        "growthPctLFL": -17.9
-      },
-      "FEBRUARI": {
-        "achievementLFL": 719975023,
-        "actualLYLFL": 717737340,
-        "growthPctLFL": 0.3
-      },
-      "MARET": {
-        "achievementLFL": 904957491,
-        "actualLYLFL": 958028221,
-        "growthPctLFL": -5.5
-      },
-      "APRIL": {
-        "achievementLFL": 656426994,
-        "actualLYLFL": 680604287,
-        "growthPctLFL": -3.6
-      },
-      "MEI": {
-        "achievementLFL": 765579195,
-        "actualLYLFL": 792443796,
-        "growthPctLFL": -3.4
-      },
-      "JUNI": {
-        "achievementLFL": 547679794,
-        "actualLYLFL": 678867762,
-        "growthPctLFL": -19.3
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 4426206819,
-        "actualLYLFL": 4840686859,
-        "growthPctLFL": -8.6
+        "target": 7606400000,
+        "achievement": 7910199179,
+        "achievementPct": 104,
+        "actualLY": 7325556596,
+        "growthPct": 8
       }
     }
   },
@@ -764,113 +496,46 @@
         "growthPct": 11.9
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 553100000,
+        "achievement": 558695303,
+        "achievementPct": 101,
+        "actualLY": 512440713,
+        "growthPct": 9
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 583748160,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 515326471,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 548808747,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 722545144,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 4225700000,
-        "achievement": 4317315798,
-        "achievementPct": 102.2,
-        "actualLY": 4043519833,
-        "growthPct": 6.8
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 572833319,
-        "actualLYLFL": 610464476,
-        "growthPctLFL": -6.2
-      },
-      "FEBRUARI": {
-        "achievementLFL": 491376817,
-        "actualLYLFL": 471271645,
-        "growthPctLFL": 4.3
-      },
-      "MARET": {
-        "achievementLFL": 759453138,
-        "actualLYLFL": 717778087,
-        "growthPctLFL": 5.8
-      },
-      "APRIL": {
-        "achievementLFL": 448921949,
-        "actualLYLFL": 497917432,
-        "growthPctLFL": -9.8
-      },
-      "MEI": {
-        "achievementLFL": 446887000,
-        "actualLYLFL": 557728688,
-        "growthPctLFL": -19.9
-      },
-      "JUNI": {
-        "achievementLFL": 497451894,
-        "actualLYLFL": 475710189,
-        "growthPctLFL": 4.6
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 3216924117,
-        "actualLYLFL": 3330870517,
-        "growthPctLFL": -3.4
+        "target": 4778800000,
+        "achievement": 4876011101,
+        "achievementPct": 102,
+        "actualLY": 4555960546,
+        "growthPct": 7
       }
     }
   },
@@ -939,113 +604,46 @@
         "growthPct": 18.1
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 260000000,
+        "achievement": 338008223,
+        "achievementPct": 130,
+        "actualLY": 564187946,
+        "growthPct": -40.1
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 623987898,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 559682393,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 655282757,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 682788700,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 1902000000,
-        "achievement": 3761527236,
-        "achievementPct": 197.8,
-        "actualLY": 4663048374,
-        "growthPct": -19.3
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 474015062,
-        "actualLYLFL": 579990487,
-        "growthPctLFL": -18.3
-      },
-      "FEBRUARI": {
-        "achievementLFL": 286291363,
-        "actualLYLFL": 450324325,
-        "growthPctLFL": -36.4
-      },
-      "MARET": {
-        "achievementLFL": 168660813,
-        "actualLYLFL": 268218178,
-        "growthPctLFL": -37.1
-      },
-      "APRIL": {
-        "achievementLFL": 327555293,
-        "actualLYLFL": 216387528,
-        "growthPctLFL": 51.4
-      },
-      "MEI": {
-        "achievementLFL": 318318597,
-        "actualLYLFL": 241136678,
-        "growthPctLFL": 32
-      },
-      "JUNI": {
-        "achievementLFL": 89872662,
-        "actualLYLFL": 488949437,
-        "growthPctLFL": -81.6
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 1664713790,
-        "actualLYLFL": 2245006633,
-        "growthPctLFL": -25.8
+        "target": 2162000000,
+        "achievement": 4099535459,
+        "achievementPct": 189.6,
+        "actualLY": 5227236320,
+        "growthPct": -21.6
       }
     }
   },
@@ -1114,113 +712,46 @@
         "growthPct": 10.2
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 221000000,
+        "achievement": 226454964,
+        "achievementPct": 102.5,
+        "actualLY": 244963868,
+        "growthPct": -7.6
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 147966619,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 175233974,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 137465241,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 185038560,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 869500000,
-        "achievement": 1197798800,
-        "achievementPct": 137.8,
-        "actualLY": 880855982,
-        "growthPct": 36
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 134531616,
-        "actualLYLFL": 109855118,
-        "growthPctLFL": 22.5
-      },
-      "FEBRUARI": {
-        "achievementLFL": 113757731,
-        "actualLYLFL": 55368396,
-        "growthPctLFL": 105.5
-      },
-      "MARET": {
-        "achievementLFL": 96771938,
-        "actualLYLFL": 66562535,
-        "growthPctLFL": 45.4
-      },
-      "APRIL": {
-        "achievementLFL": 152094641,
-        "actualLYLFL": 58258462,
-        "growthPctLFL": 161.1
-      },
-      "MEI": {
-        "achievementLFL": 133584144,
-        "actualLYLFL": 86024565,
-        "growthPctLFL": 55.3
-      },
-      "JUNI": {
-        "achievementLFL": 97257297,
-        "actualLYLFL": 127689208,
-        "growthPctLFL": -23.8
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 727997367,
-        "actualLYLFL": 503758284,
-        "growthPctLFL": 44.5
+        "target": 1090500000,
+        "achievement": 1424253764,
+        "achievementPct": 130.6,
+        "actualLY": 1125819850,
+        "growthPct": 26.5
       }
     }
   },
@@ -1289,113 +820,46 @@
         "growthPct": 32.4
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 3321600000,
+        "achievement": 3497950009,
+        "achievementPct": 105.3,
+        "actualLY": 2739135768,
+        "growthPct": 27.7
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2730839392,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2501662354,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2659778421,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 4130097237,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 19758600000,
-        "achievement": 19522713303,
-        "achievementPct": 98.8,
-        "actualLY": 17746733098,
-        "growthPct": 10
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 3024930438,
-        "actualLYLFL": 2965950886,
-        "growthPctLFL": 2
-      },
-      "FEBRUARI": {
-        "achievementLFL": 2589074858,
-        "actualLYLFL": 2118966963,
-        "growthPctLFL": 22.2
-      },
-      "MARET": {
-        "achievementLFL": 2928535720,
-        "actualLYLFL": 3012441131,
-        "growthPctLFL": -2.8
-      },
-      "APRIL": {
-        "achievementLFL": 1556639639,
-        "actualLYLFL": 2044555706,
-        "growthPctLFL": -23.9
-      },
-      "MEI": {
-        "achievementLFL": 2504280069,
-        "actualLYLFL": 2360147122,
-        "growthPctLFL": 6.1
-      },
-      "JUNI": {
-        "achievementLFL": 2497722764,
-        "actualLYLFL": 2605372330,
-        "growthPctLFL": -4.1
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 15101183488,
-        "actualLYLFL": 15107434138,
-        "growthPctLFL": 0
+        "target": 23080200000,
+        "achievement": 23020663312,
+        "achievementPct": 99.7,
+        "actualLY": 20485868865,
+        "growthPct": 12.4
       }
     }
   },
@@ -1464,113 +928,46 @@
         "growthPct": -24.6
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 389200000,
+        "achievement": 476218100,
+        "achievementPct": 122.4,
+        "actualLY": 442079978,
+        "growthPct": 7.7
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 339207625,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 390892872,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 321566306,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 407307388,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 2942500000,
-        "achievement": 2987386879,
-        "achievementPct": 101.5,
-        "actualLY": 3334767017,
-        "growthPct": -10.4
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 292392031,
-        "actualLYLFL": 424373429,
-        "growthPctLFL": -31.1
-      },
-      "FEBRUARI": {
-        "achievementLFL": 266584266,
-        "actualLYLFL": 197598286,
-        "growthPctLFL": 34.9
-      },
-      "MARET": {
-        "achievementLFL": 234294819,
-        "actualLYLFL": 339306766,
-        "growthPctLFL": -30.9
-      },
-      "APRIL": {
-        "achievementLFL": 393421640,
-        "actualLYLFL": 243856362,
-        "growthPctLFL": 61.3
-      },
-      "MEI": {
-        "achievementLFL": 362527299,
-        "actualLYLFL": 345585396,
-        "growthPctLFL": 4.9
-      },
-      "JUNI": {
-        "achievementLFL": 400227619,
-        "actualLYLFL": 488790800,
-        "growthPctLFL": -18.1
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 1949447674,
-        "actualLYLFL": 2039511039,
-        "growthPctLFL": -4.4
+        "target": 3331700000,
+        "achievement": 3463604979,
+        "achievementPct": 104,
+        "actualLY": 3776846996,
+        "growthPct": -8.3
       }
     }
   },
@@ -1639,113 +1036,46 @@
         "growthPct": 6.8
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 1562000000,
+        "achievement": 1415024506,
+        "achievementPct": 90.6,
+        "actualLY": 1455714329,
+        "growthPct": -2.8
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1448444000,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1077716941,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1491143611,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2135169239,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 9798800000,
-        "achievement": 10668737931,
-        "achievementPct": 108.9,
-        "actualLY": 8539176469,
-        "growthPct": 24.9
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 909243945,
-        "actualLYLFL": 650073022,
-        "growthPctLFL": 39.9
-      },
-      "FEBRUARI": {
-        "achievementLFL": 770028662,
-        "actualLYLFL": 520302945,
-        "growthPctLFL": 48
-      },
-      "MARET": {
-        "achievementLFL": 847566767,
-        "actualLYLFL": 575920526,
-        "growthPctLFL": 47.2
-      },
-      "APRIL": {
-        "achievementLFL": 483092498,
-        "actualLYLFL": 584596202,
-        "growthPctLFL": -17.4
-      },
-      "MEI": {
-        "achievementLFL": 629927894,
-        "actualLYLFL": 508264868,
-        "growthPctLFL": 23.9
-      },
-      "JUNI": {
-        "achievementLFL": 552728010,
-        "actualLYLFL": 857811276,
-        "growthPctLFL": -35.6
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 4192587776,
-        "actualLYLFL": 3696968839,
-        "growthPctLFL": 13.4
+        "target": 11360800000,
+        "achievement": 12083762437,
+        "achievementPct": 106.4,
+        "actualLY": 9994890797,
+        "growthPct": 20.9
       }
     }
   },
@@ -1814,113 +1144,46 @@
         "growthPct": -26.6
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 662300000,
+        "achievement": 597543708,
+        "achievementPct": 90.2,
+        "actualLY": 879553078,
+        "growthPct": -32.1
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 741407818,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 734317207,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 777142618,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1087712301,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 6289700000,
-        "achievement": 7096860388,
-        "achievementPct": 112.8,
-        "actualLY": 6605511342,
-        "growthPct": 7.4
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 694366403,
-        "actualLYLFL": 675283325,
-        "growthPctLFL": 2.8
-      },
-      "FEBRUARI": {
-        "achievementLFL": 753436909,
-        "actualLYLFL": 492920541,
-        "growthPctLFL": 52.9
-      },
-      "MARET": {
-        "achievementLFL": 1156683375,
-        "actualLYLFL": 1120749486,
-        "growthPctLFL": 3.2
-      },
-      "APRIL": {
-        "achievementLFL": 534381047,
-        "actualLYLFL": 604656083,
-        "growthPctLFL": -11.6
-      },
-      "MEI": {
-        "achievementLFL": 523047092,
-        "actualLYLFL": 538431109,
-        "growthPctLFL": -2.9
-      },
-      "JUNI": {
-        "achievementLFL": 466625538,
-        "actualLYLFL": 433849777,
-        "growthPctLFL": 7.6
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 4128540364,
-        "actualLYLFL": 3865890321,
-        "growthPctLFL": 6.8
+        "target": 6952000000,
+        "achievement": 7694404096,
+        "achievementPct": 110.7,
+        "actualLY": 7485064420,
+        "growthPct": 2.8
       }
     }
   },
@@ -1989,113 +1252,46 @@
         "growthPct": -20.4
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 227200000,
+        "achievement": 252260762,
+        "achievementPct": 111,
+        "actualLY": 221847519,
+        "growthPct": 13.7
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 240575418,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 219498432,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 242606874,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 305087693,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 1669300000,
-        "achievement": 1662289298,
-        "achievementPct": 99.6,
-        "actualLY": 1550279777,
-        "growthPct": 7.2
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 194896174,
-        "actualLYLFL": 261303049,
-        "growthPctLFL": -25.4
-      },
-      "FEBRUARI": {
-        "achievementLFL": 178061758,
-        "actualLYLFL": 163659013,
-        "growthPctLFL": 8.8
-      },
-      "MARET": {
-        "achievementLFL": 163789105,
-        "actualLYLFL": 220410108,
-        "growthPctLFL": -25.7
-      },
-      "APRIL": {
-        "achievementLFL": 129159082,
-        "actualLYLFL": 144810392,
-        "growthPctLFL": -10.8
-      },
-      "MEI": {
-        "achievementLFL": 178512703,
-        "actualLYLFL": 211981549,
-        "growthPctLFL": -15.8
-      },
-      "JUNI": {
-        "achievementLFL": 139004516,
-        "actualLYLFL": 167217090,
-        "growthPctLFL": -16.9
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 983423338,
-        "actualLYLFL": 1169381201,
-        "growthPctLFL": -15.9
+        "target": 1896500000,
+        "achievement": 1914550059,
+        "achievementPct": 101,
+        "actualLY": 1772127297,
+        "growthPct": 8
       }
     }
   },
@@ -2164,9 +1360,9 @@
         "growthPct": 0
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 32900000,
+        "achievement": 54373159,
+        "achievementPct": 165.3,
         "actualLY": 0,
         "growthPct": 0
       },
@@ -2174,103 +1370,36 @@
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 57626302,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 25542830,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 24468426,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 35293017,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 132700000,
-        "achievement": 130299216,
-        "achievementPct": 98.2,
+        "target": 165600000,
+        "achievement": 184672375,
+        "achievementPct": 111.5,
         "actualLY": 0,
         "growthPct": 0
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 23479748,
-        "actualLYLFL": 24141983,
-        "growthPctLFL": -2.7
-      },
-      "FEBRUARI": {
-        "achievementLFL": 18507684,
-        "actualLYLFL": 26139405,
-        "growthPctLFL": -29.2
-      },
-      "MARET": {
-        "achievementLFL": 21220098,
-        "actualLYLFL": 26166775,
-        "growthPctLFL": -18.9
-      },
-      "APRIL": {
-        "achievementLFL": 19507235,
-        "actualLYLFL": 7873910,
-        "growthPctLFL": 147.7
-      },
-      "MEI": {
-        "achievementLFL": 12090090,
-        "actualLYLFL": 15481081,
-        "growthPctLFL": -21.9
-      },
-      "JUNI": {
-        "achievementLFL": 11899550,
-        "actualLYLFL": 22185685,
-        "growthPctLFL": -46.4
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 106704405,
-        "actualLYLFL": 121988839,
-        "growthPctLFL": -12.5
       }
     }
   },
@@ -2339,9 +1468,9 @@
         "growthPct": 0
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 108100000,
+        "achievement": 184344016,
+        "achievementPct": 170.5,
         "actualLY": 0,
         "growthPct": 0
       },
@@ -2349,103 +1478,36 @@
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 136131257,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 124283575,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 129429086,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 187682146,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 475400000,
-        "achievement": 676803203,
-        "achievementPct": 142.4,
+        "target": 583500000,
+        "achievement": 861147218,
+        "achievementPct": 147.6,
         "actualLY": 0,
         "growthPct": 0
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 126497441,
-        "actualLYLFL": 118664202,
-        "growthPctLFL": 6.6
-      },
-      "FEBRUARI": {
-        "achievementLFL": 115397552,
-        "actualLYLFL": 94454493,
-        "growthPctLFL": 22.2
-      },
-      "MARET": {
-        "achievementLFL": 152258676,
-        "actualLYLFL": 173899358,
-        "growthPctLFL": -12.4
-      },
-      "APRIL": {
-        "achievementLFL": 125474064,
-        "actualLYLFL": 99602359,
-        "growthPctLFL": 26
-      },
-      "MEI": {
-        "achievementLFL": 136281188,
-        "actualLYLFL": 98221595,
-        "growthPctLFL": 38.7
-      },
-      "JUNI": {
-        "achievementLFL": 126755042,
-        "actualLYLFL": 111123226,
-        "growthPctLFL": 14.1
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 782663963,
-        "actualLYLFL": 695965233,
-        "growthPctLFL": 12.5
       }
     }
   },
@@ -2514,9 +1576,9 @@
         "growthPct": 0
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 130800000,
+        "achievement": 176149360,
+        "achievementPct": 134.7,
         "actualLY": 0,
         "growthPct": 0
       },
@@ -2524,103 +1586,36 @@
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 263035528,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 165184825,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 165145732,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 242016856,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 594800000,
-        "achievement": 506673973,
-        "achievementPct": 85.2,
+        "target": 725600000,
+        "achievement": 682823334,
+        "achievementPct": 94.1,
         "actualLY": 0,
         "growthPct": 0
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 175762631,
-        "actualLYLFL": 224325117,
-        "growthPctLFL": -21.6
-      },
-      "FEBRUARI": {
-        "achievementLFL": 148940894,
-        "actualLYLFL": 183001479,
-        "growthPctLFL": -18.6
-      },
-      "MARET": {
-        "achievementLFL": 117372396,
-        "actualLYLFL": 177101113,
-        "growthPctLFL": -33.7
-      },
-      "APRIL": {
-        "achievementLFL": 37556081,
-        "actualLYLFL": 178255946,
-        "growthPctLFL": -78.9
-      },
-      "MEI": {
-        "achievementLFL": 81607840,
-        "actualLYLFL": 90889729,
-        "growthPctLFL": -10.2
-      },
-      "JUNI": {
-        "achievementLFL": 132059370,
-        "actualLYLFL": 97784576,
-        "growthPctLFL": 35.1
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 693299212,
-        "actualLYLFL": 951357960,
-        "growthPctLFL": -27.1
       }
     }
   },
@@ -2689,9 +1684,9 @@
         "growthPct": 0
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 15200000,
+        "achievement": 9399189,
+        "achievementPct": 61.8,
         "actualLY": 0,
         "growthPct": 0
       },
@@ -2699,103 +1694,36 @@
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 13790090,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 11949633,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 20752052,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 20619794,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 48200000,
-        "achievement": 48974568,
-        "achievementPct": 101.6,
+        "target": 63400000,
+        "achievement": 58373757,
+        "achievementPct": 92.1,
         "actualLY": 0,
         "growthPct": 0
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 14877039,
-        "actualLYLFL": 18414236,
-        "growthPctLFL": -19.2
-      },
-      "FEBRUARI": {
-        "achievementLFL": 11588829,
-        "actualLYLFL": 22586791,
-        "growthPctLFL": -48.7
-      },
-      "MARET": {
-        "achievementLFL": 10587118,
-        "actualLYLFL": 24424769,
-        "growthPctLFL": -56.7
-      },
-      "APRIL": {
-        "achievementLFL": 12842702,
-        "actualLYLFL": 14016972,
-        "growthPctLFL": -8.4
-      },
-      "MEI": {
-        "achievementLFL": 8187658,
-        "actualLYLFL": 8273241,
-        "growthPctLFL": -1
-      },
-      "JUNI": {
-        "achievementLFL": 10746666,
-        "actualLYLFL": 9117684,
-        "growthPctLFL": 17.9
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 68830012,
-        "actualLYLFL": 96833693,
-        "growthPctLFL": -28.9
       }
     }
   },
@@ -2864,9 +1792,9 @@
         "growthPct": 0
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 287000000,
+        "achievement": 424265725,
+        "achievementPct": 147.8,
         "actualLY": 0,
         "growthPct": 0
       },
@@ -2874,103 +1802,36 @@
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 470583177,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 326960863,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 339795296,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 485611813,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 1251100000,
-        "achievement": 1362750959,
-        "achievementPct": 108.9,
+        "target": 1538100000,
+        "achievement": 1787016685,
+        "achievementPct": 116.2,
         "actualLY": 0,
         "growthPct": 0
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 340616859,
-        "actualLYLFL": 385545538,
-        "growthPctLFL": -11.7
-      },
-      "FEBRUARI": {
-        "achievementLFL": 294434959,
-        "actualLYLFL": 326182168,
-        "growthPctLFL": -9.7
-      },
-      "MARET": {
-        "achievementLFL": 301438288,
-        "actualLYLFL": 401592015,
-        "growthPctLFL": -24.9
-      },
-      "APRIL": {
-        "achievementLFL": 195380082,
-        "actualLYLFL": 299749187,
-        "growthPctLFL": -34.8
-      },
-      "MEI": {
-        "achievementLFL": 238166776,
-        "actualLYLFL": 212865646,
-        "growthPctLFL": 11.9
-      },
-      "JUNI": {
-        "achievementLFL": 281460628,
-        "actualLYLFL": 240211171,
-        "growthPctLFL": 17.2
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 1651497592,
-        "actualLYLFL": 1866145725,
-        "growthPctLFL": -11.5
       }
     }
   },
@@ -3039,113 +1900,46 @@
         "growthPct": 18.2
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 2021700000,
+        "achievement": 2796240638,
+        "achievementPct": 138.3,
+        "actualLY": 1600744837,
+        "growthPct": 74.7
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1830671697,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2393951870,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1989717953,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2608195248,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 13758100000,
-        "achievement": 11135795110,
-        "achievementPct": 80.9,
-        "actualLY": 11961366056,
-        "growthPct": -6.9
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 1254923744,
-        "actualLYLFL": 1629576571,
-        "growthPctLFL": -23
-      },
-      "FEBRUARI": {
-        "achievementLFL": 1155979541,
-        "actualLYLFL": 1356535519,
-        "growthPctLFL": -14.8
-      },
-      "MARET": {
-        "achievementLFL": 1041691276,
-        "actualLYLFL": 1453513075,
-        "growthPctLFL": -28.3
-      },
-      "APRIL": {
-        "achievementLFL": 1086321983,
-        "actualLYLFL": 1430418690,
-        "growthPctLFL": -24.1
-      },
-      "MEI": {
-        "achievementLFL": 1076134254,
-        "actualLYLFL": 1430522187,
-        "growthPctLFL": -24.8
-      },
-      "JUNI": {
-        "achievementLFL": 1289428740,
-        "actualLYLFL": 3018453421,
-        "growthPctLFL": -57.3
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 6904479538,
-        "actualLYLFL": 10319019463,
-        "growthPctLFL": -33.1
+        "target": 15779800000,
+        "achievement": 13932035748,
+        "achievementPct": 88.3,
+        "actualLY": 13562110893,
+        "growthPct": 2.7
       }
     }
   },
@@ -3214,113 +2008,46 @@
         "growthPct": -21.2
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 1868100000,
+        "achievement": 1956790627,
+        "achievementPct": 104.7,
+        "actualLY": 2122797038,
+        "growthPct": -7.8
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2020602994,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2365295621,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2316117250,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2384653904,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 17279800000,
-        "achievement": 16472984690,
-        "achievementPct": 95.3,
-        "actualLY": 20052690830,
-        "growthPct": -17.9
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 2035214089,
-        "actualLYLFL": 2063881772,
-        "growthPctLFL": -1.4
-      },
-      "FEBRUARI": {
-        "achievementLFL": 920743054,
-        "actualLYLFL": 1375664953,
-        "growthPctLFL": -33.1
-      },
-      "MARET": {
-        "achievementLFL": 1170075445,
-        "actualLYLFL": 1660123638,
-        "growthPctLFL": -29.5
-      },
-      "APRIL": {
-        "achievementLFL": 1314336137,
-        "actualLYLFL": 1648828084,
-        "growthPctLFL": -20.3
-      },
-      "MEI": {
-        "achievementLFL": 1658375979,
-        "actualLYLFL": 1585959416,
-        "growthPctLFL": 4.6
-      },
-      "JUNI": {
-        "achievementLFL": 2705319103,
-        "actualLYLFL": 2410970722,
-        "growthPctLFL": 12.2
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 9804063807,
-        "actualLYLFL": 10745428585,
-        "growthPctLFL": -8.8
+        "target": 19147900000,
+        "achievement": 18429775317,
+        "achievementPct": 96.2,
+        "actualLY": 22175487868,
+        "growthPct": -16.9
       }
     }
   },
@@ -3389,113 +2116,46 @@
         "growthPct": -19.5
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 1600400000,
+        "achievement": 2675851107,
+        "achievementPct": 167.2,
+        "actualLY": 2116078644,
+        "growthPct": 26.5
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1934289381,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1367489058,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1967157301,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2370092694,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 16850300000,
-        "achievement": 16350716620,
-        "achievementPct": 97,
-        "actualLY": 17285313206,
-        "growthPct": -5.4
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 2220443976,
-        "actualLYLFL": 1293813851,
-        "growthPctLFL": 71.6
-      },
-      "FEBRUARI": {
-        "achievementLFL": 1584107921,
-        "actualLYLFL": 1519356257,
-        "growthPctLFL": 4.3
-      },
-      "MARET": {
-        "achievementLFL": 2535959669,
-        "actualLYLFL": 2802538736,
-        "growthPctLFL": -9.5
-      },
-      "APRIL": {
-        "achievementLFL": 1893282418,
-        "actualLYLFL": 609797916,
-        "growthPctLFL": 210.5
-      },
-      "MEI": {
-        "achievementLFL": 1425791027,
-        "actualLYLFL": 1480346515,
-        "growthPctLFL": -3.7
-      },
-      "JUNI": {
-        "achievementLFL": 1497784376,
-        "actualLYLFL": 2380535429,
-        "growthPctLFL": -37.1
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 11157369387,
-        "actualLYLFL": 10086388704,
-        "growthPctLFL": 10.6
+        "target": 18450700000,
+        "achievement": 19026567727,
+        "achievementPct": 103.1,
+        "actualLY": 19401391850,
+        "growthPct": -1.9
       }
     }
   },
@@ -3564,113 +2224,46 @@
         "growthPct": 36.5
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 2766800000,
+        "achievement": 2837764446,
+        "achievementPct": 102.6,
+        "actualLY": 2481310328,
+        "growthPct": 14.4
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2327886919,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2075743372,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 2181218701,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 3121053725,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 16257400000,
-        "achievement": 16633268117,
+        "target": 19024200000,
+        "achievement": 19471032563,
         "achievementPct": 102.3,
-        "actualLY": 14047728259,
-        "growthPct": 18.4
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 1865758041,
-        "actualLYLFL": 1664260497,
-        "growthPctLFL": 12.1
-      },
-      "FEBRUARI": {
-        "achievementLFL": 1573710990,
-        "actualLYLFL": 1616419325,
-        "growthPctLFL": -2.6
-      },
-      "MARET": {
-        "achievementLFL": 1653215532,
-        "actualLYLFL": 1803959822,
-        "growthPctLFL": -8.4
-      },
-      "APRIL": {
-        "achievementLFL": 1535980648,
-        "actualLYLFL": 1754683130,
-        "growthPctLFL": -12.5
-      },
-      "MEI": {
-        "achievementLFL": 1822478898,
-        "actualLYLFL": 2013011183,
-        "growthPctLFL": -9.5
-      },
-      "JUNI": {
-        "achievementLFL": 1881828782,
-        "actualLYLFL": 2184441521,
-        "growthPctLFL": -13.9
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 10332972891,
-        "actualLYLFL": 11036775478,
-        "growthPctLFL": -6.4
+        "actualLY": 16953531221,
+        "growthPct": 14.8
       }
     }
   },
@@ -3739,113 +2332,46 @@
         "growthPct": -9.2
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 529400000,
+        "achievement": 766897441,
+        "achievementPct": 144.9,
+        "actualLY": 679390950,
+        "growthPct": 12.9
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 626826052,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 523964862,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 485126950,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 648286413,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 5126500000,
-        "achievement": 5355381469,
-        "achievementPct": 104.5,
-        "actualLY": 3404537325,
-        "growthPct": 57.3
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 620432644,
-        "actualLYLFL": 345221045,
-        "growthPctLFL": 79.7
-      },
-      "FEBRUARI": {
-        "achievementLFL": 415999576,
-        "actualLYLFL": 321376987,
-        "growthPctLFL": 29.4
-      },
-      "MARET": {
-        "achievementLFL": 364317423,
-        "actualLYLFL": 397120231,
-        "growthPctLFL": -8.3
-      },
-      "APRIL": {
-        "achievementLFL": 386695578,
-        "actualLYLFL": 485406400,
-        "growthPctLFL": -20.3
-      },
-      "MEI": {
-        "achievementLFL": 524937829,
-        "actualLYLFL": 603774260,
-        "growthPctLFL": -13.1
-      },
-      "JUNI": {
-        "achievementLFL": 522678637,
-        "actualLYLFL": 632430421,
-        "growthPctLFL": -17.4
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 2835061687,
-        "actualLYLFL": 2785329344,
-        "growthPctLFL": 1.8
+        "target": 5655900000,
+        "achievement": 6122278910,
+        "achievementPct": 108.2,
+        "actualLY": 5961393840,
+        "growthPct": 2.7
       }
     }
   },
@@ -3914,113 +2440,46 @@
         "growthPct": -0.5
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 1175700000,
+        "achievement": 1254899832,
+        "achievementPct": 106.7,
+        "actualLY": 1351566605,
+        "growthPct": -7.2
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 992808028,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1144666115,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1168150310,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1404860494,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 8815600000,
-        "achievement": 9802216520,
-        "achievementPct": 111.2,
-        "actualLY": 6848852397,
-        "growthPct": 43.1
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 1271091357,
-        "actualLYLFL": 942923173,
-        "growthPctLFL": 34.8
-      },
-      "FEBRUARI": {
-        "achievementLFL": 712691757,
-        "actualLYLFL": 810064909,
-        "growthPctLFL": -12
-      },
-      "MARET": {
-        "achievementLFL": 969128561,
-        "actualLYLFL": 1292982264,
-        "growthPctLFL": -25
-      },
-      "APRIL": {
-        "achievementLFL": 1000550549,
-        "actualLYLFL": 962825021,
-        "growthPctLFL": 3.9
-      },
-      "MEI": {
-        "achievementLFL": 1274985605,
-        "actualLYLFL": 979986249,
-        "growthPctLFL": 30.1
-      },
-      "JUNI": {
-        "achievementLFL": 915227165,
-        "actualLYLFL": 1119145517,
-        "growthPctLFL": -18.2
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 6143674994,
-        "actualLYLFL": 6107927133,
-        "growthPctLFL": 0.6
+        "target": 9991300000,
+        "achievement": 11057116352,
+        "achievementPct": 110.7,
+        "actualLY": 10612555850,
+        "growthPct": 4.2
       }
     }
   },
@@ -4089,113 +2548,46 @@
         "growthPct": 2.5
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 1351700000,
+        "achievement": 1246327402,
+        "achievementPct": 92.2,
+        "actualLY": 1294032931,
+        "growthPct": -3.7
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 984246591,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1001883382,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 869805958,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 1215478611,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 7409500000,
-        "achievement": 7912210278,
-        "achievementPct": 106.8,
-        "actualLY": 5820926496,
-        "growthPct": 35.9
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 763161105,
-        "actualLYLFL": 744999605,
-        "growthPctLFL": 2.4
-      },
-      "FEBRUARI": {
-        "achievementLFL": 666621301,
-        "actualLYLFL": 618138799,
-        "growthPctLFL": 7.8
-      },
-      "MARET": {
-        "achievementLFL": 717503941,
-        "actualLYLFL": 822324423,
-        "growthPctLFL": -12.7
-      },
-      "APRIL": {
-        "achievementLFL": 569107876,
-        "actualLYLFL": 653162143,
-        "growthPctLFL": -12.9
-      },
-      "MEI": {
-        "achievementLFL": 745139813,
-        "actualLYLFL": 808807536,
-        "growthPctLFL": -7.9
-      },
-      "JUNI": {
-        "achievementLFL": 678907855,
-        "actualLYLFL": 730200061,
-        "growthPctLFL": -7
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 4140441891,
-        "actualLYLFL": 4377632567,
-        "growthPctLFL": -5.4
+        "target": 8761200000,
+        "achievement": 9158537680,
+        "achievementPct": 104.5,
+        "actualLY": 8722444279,
+        "growthPct": 5
       }
     }
   },
@@ -4264,113 +2656,46 @@
         "growthPct": 22.3
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 544000000,
+        "achievement": 170686085,
+        "achievementPct": 31.4,
+        "actualLY": 475882523,
+        "growthPct": -64.1
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 383504303,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 221735197,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 399773963,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 502426709,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 3578000000,
-        "achievement": 2724364514,
-        "achievementPct": 76.1,
-        "actualLY": 3742395901,
-        "growthPct": -27.2
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 36337117,
-        "growthPctLFL": -100
-      },
-      "FEBRUARI": {
-        "achievementLFL": 28492252,
-        "actualLYLFL": 58530091,
-        "growthPctLFL": -51.3
-      },
-      "MARET": {
-        "achievementLFL": 2821756,
-        "actualLYLFL": 198649151,
-        "growthPctLFL": -98.6
-      },
-      "APRIL": {
-        "achievementLFL": 3322072,
-        "actualLYLFL": 6184685,
-        "growthPctLFL": -46.3
-      },
-      "MEI": {
-        "achievementLFL": 306196112,
-        "actualLYLFL": 9363604,
-        "growthPctLFL": 3170.1
-      },
-      "JUNI": {
-        "achievementLFL": 2599910,
-        "actualLYLFL": 4411711,
-        "growthPctLFL": -41.1
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 343432102,
-        "actualLYLFL": 313476359,
-        "growthPctLFL": 9.6
+        "target": 4122000000,
+        "achievement": 2895050599,
+        "achievementPct": 70.2,
+        "actualLY": 4186972679,
+        "growthPct": -30.9
       }
     }
   },
@@ -4439,113 +2764,46 @@
         "growthPct": 36.6
       },
       "AGUSTUS": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 276000000,
+        "achievement": 344036950,
+        "achievementPct": 124.7,
+        "actualLY": 261882668,
+        "growthPct": 31.4
       },
       "SEPTEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 237594317,
+        "growthPct": -100
       },
       "OKTOBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 233870029,
+        "growthPct": -100
       },
       "NOVEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 264805499,
+        "growthPct": -100
       },
       "DESEMBER": {
         "target": 0,
         "achievement": 0,
         "achievementPct": 0,
-        "actualLY": 0,
-        "growthPct": 0
+        "actualLY": 338498528,
+        "growthPct": -100
       },
       "YTD": {
-        "target": 1776300000,
-        "achievement": 2127431987,
-        "achievementPct": 119.8,
-        "actualLY": 1459723488,
-        "growthPct": 45.7
-      }
-    },
-    "lfl": {
-      "JANUARI": {
-        "achievementLFL": 279071677,
-        "actualLYLFL": 176346126,
-        "growthPctLFL": 58.3
-      },
-      "FEBRUARI": {
-        "achievementLFL": 285992160,
-        "actualLYLFL": 265448831,
-        "growthPctLFL": 7.7
-      },
-      "MARET": {
-        "achievementLFL": 303528651,
-        "actualLYLFL": 307122124,
-        "growthPctLFL": -1.2
-      },
-      "APRIL": {
-        "achievementLFL": 223566210,
-        "actualLYLFL": 210728745,
-        "growthPctLFL": 6.1
-      },
-      "MEI": {
-        "achievementLFL": 243635617,
-        "actualLYLFL": 226773727,
-        "growthPctLFL": 7.4
-      },
-      "JUNI": {
-        "achievementLFL": 229999136,
-        "actualLYLFL": 252448663,
-        "growthPctLFL": -8.9
-      },
-      "JULI": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "AGUSTUS": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "SEPTEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "OKTOBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "NOVEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "DESEMBER": {
-        "achievementLFL": 0,
-        "actualLYLFL": 0,
-        "growthPctLFL": 0
-      },
-      "YTD": {
-        "achievementLFL": 1565793451,
-        "actualLYLFL": 1438868216,
-        "growthPctLFL": 8.8
+        "target": 2052300000,
+        "achievement": 2471468938,
+        "achievementPct": 120.4,
+        "actualLY": 1991303499,
+        "growthPct": 24.1
       }
     }
   }

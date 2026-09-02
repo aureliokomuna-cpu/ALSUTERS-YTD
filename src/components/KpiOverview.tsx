@@ -8,10 +8,18 @@ import {
   ArrowUpRight, 
   ArrowDownRight,
   Sparkles,
-  Layers
+  Layers,
+  Maximize2
 } from 'lucide-react';
 import { FilterState, GlobalKPISummary } from '../types';
-import { formatIDR, formatPct } from '../data/dataset';
+import { 
+  formatIDR, 
+  formatPct, 
+  formatProductivity, 
+  formatSQM, 
+  getProductivityColorClass, 
+  getProductivityBadgeClass 
+} from '../data/dataset';
 
 interface KpiOverviewProps {
   summary: GlobalKPISummary;
@@ -27,6 +35,7 @@ export const KpiOverview: React.FC<KpiOverviewProps> = ({
   const isPositiveGrowth = summary.growthPct >= 0;
   const isAchieved = summary.achievementPct >= 100;
   const deltaTarget = summary.achievement - summary.target;
+  const isHighProductivity = summary.spaceProductivity >= 1_000_000;
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -45,7 +54,7 @@ export const KpiOverview: React.FC<KpiOverviewProps> = ({
         </span>
         
         <div className="flex items-baseline gap-2 mt-1">
-          <span className="text-4xl font-bold text-white">
+          <span className={`text-4xl font-bold ${isDarkMode ? 'text-white' : 'text-zinc-900'}`}>
             {formatPct(summary.achievementPct)}
           </span>
           <span className="text-zinc-500 text-sm">
@@ -128,7 +137,7 @@ export const KpiOverview: React.FC<KpiOverviewProps> = ({
         </div>
       </div>
 
-      {/* CARD 3: TOTAL OMZET & LIKE-FOR-LIKE */}
+      {/* CARD 3: TOTAL OMZET & PRODUCTIVITY ALL STORE */}
       <div 
         id="kpi-card-revenue"
         className={`border p-6 rounded-2xl flex flex-col gap-1 transition-all ${
@@ -142,30 +151,64 @@ export const KpiOverview: React.FC<KpiOverviewProps> = ({
         </span>
 
         <div className="flex items-baseline gap-2 mt-1">
-          <span className="text-3xl font-bold text-white">
+          <span className={`text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-zinc-900'}`}>
             {formatIDR(summary.achievement, true)}
           </span>
         </div>
 
-        <div className="flex items-center gap-2 mt-4">
-          <div className="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-[10px] font-bold">
-            LFL: {formatPct(summary.lflGrowthPct, true)}
+        {/* PRODUCTIVITY ALL STORE (Placed right below Total Revenue as requested) */}
+        <div className={`mt-3 p-3 rounded-xl border transition-all ${
+          isDarkMode 
+            ? isHighProductivity 
+              ? 'bg-blue-950/20 border-blue-900/50' 
+              : 'bg-rose-950/20 border-rose-900/50'
+            : isHighProductivity 
+              ? 'bg-blue-50/80 border-blue-200' 
+              : 'bg-rose-50/80 border-rose-200'
+        }`}>
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] font-semibold text-zinc-400 flex items-center gap-1" title="Rata-rata Penjualan per m² per Bulan (Dihitung per bulan lalu dirata-rata)">
+              <Maximize2 className="w-3 h-3 text-zinc-400" />
+              Productivity All Store (Avg/Bln)
+            </span>
+            <span className={`text-[10px] px-1.5 py-0.5 rounded font-mono font-medium ${
+              isDarkMode ? 'bg-zinc-800 text-zinc-300' : 'bg-white text-zinc-600 border border-zinc-200'
+            }`}>
+              {formatSQM(summary.totalSqm)}
+            </span>
           </div>
-          <span className="text-zinc-500 text-xs">
-            Same-SKU metric
-          </span>
+
+          <div className="flex items-baseline justify-between mt-1">
+            <span className={`text-base sm:text-lg font-mono tracking-tight ${getProductivityColorClass(summary.spaceProductivity, isDarkMode)}`}>
+              {formatProductivity(summary.spaceProductivity)}
+            </span>
+            <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
+              isHighProductivity 
+                ? 'bg-blue-500/20 text-blue-400' 
+                : 'bg-rose-500/20 text-rose-400'
+            }`}>
+              {isHighProductivity ? '≥ 1 Jt (Tinggi)' : '< 1 Jt (Rendah)'}
+            </span>
+          </div>
         </div>
 
-        {/* Average per Dept */}
+        {/* LFL & Avg/Dept Footer */}
         <div className={`mt-auto pt-3 border-t flex items-center justify-between text-xs ${
           isDarkMode ? 'border-zinc-800/80 text-zinc-400' : 'border-zinc-100 text-zinc-500'
         }`}>
-          <span className="text-[11px] text-zinc-500">Rata-rata / Dept:</span>
-          <strong className={`font-semibold ${isDarkMode ? 'text-zinc-200' : 'text-zinc-900'}`}>
-            {summary.totalDepartments > 0 
-              ? formatIDR(summary.achievement / summary.totalDepartments, true) 
-              : 'Rp 0'}
-          </strong>
+          <div className="flex items-center gap-1.5">
+            <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">
+              LFL: {formatPct(summary.lflGrowthPct, true)}
+            </span>
+          </div>
+          <div className="text-right">
+            <span className="text-[10px] text-zinc-500 mr-1">Avg/Dept:</span>
+            <strong className={`font-semibold ${isDarkMode ? 'text-zinc-200' : 'text-zinc-900'}`}>
+              {summary.totalDepartments > 0 
+                ? formatIDR(summary.achievement / summary.totalDepartments, true) 
+                : 'Rp 0'}
+            </strong>
+          </div>
         </div>
       </div>
 

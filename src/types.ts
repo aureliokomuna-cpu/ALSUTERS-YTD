@@ -37,10 +37,12 @@ export interface DepartmentItem {
   name: string;
   zoneCode: string;
   zoneName: string;
+  sqm?: number;
+  sqmEks?: number;
   isZoneTotal: boolean;
   isGrandTotal: boolean;
   monthly: Record<string, PerformanceMetric>;
-  lfl: Record<string, LikeForLikeMetric>;
+  lfl?: Record<string, LikeForLikeMetric>;
 }
 
 export interface ZoneGroup {
@@ -52,6 +54,8 @@ export interface ZoneGroup {
   actualLY: number;
   growthPct: number;
   growthAmount: number;
+  totalSqm: number;
+  spaceProductivity: number;
   status: 'on_track' | 'warning' | 'critical';
   departments: DepartmentItem[];
 }
@@ -63,6 +67,8 @@ export interface GlobalKPISummary {
   actualLY: number;
   growthPct: number;
   growthAmount: number;
+  totalSqm: number;
+  spaceProductivity: number;
   lflAchievement: number;
   lflActualLY: number;
   lflGrowthPct: number;
@@ -81,6 +87,6 @@ export interface FilterState {
   metricMode: 'TOTAL_RESTATED' | 'LIKE_FOR_LIKE';
   searchQuery: string;
   statusFilter: 'ALL' | StatusCategory;
-  sortBy: 'achievementPct' | 'growthPct' | 'achievement' | 'target' | 'name';
+  sortBy: 'achievementPct' | 'growthPct' | 'achievement' | 'target' | 'name' | 'sqm' | 'productivity';
   sortOrder: 'asc' | 'desc';
 }

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { Header } from './components/Header';
 import { FilterBar } from './components/FilterBar';
 import { KpiOverview } from './components/KpiOverview';
@@ -21,13 +21,15 @@ import {
   ZONES_META,
   formatIDR
 } from './data/dataset';
+import { fetchLiveGoogleSheetsData } from './data/csvParser';
 import { 
   CheckCircle2, 
   AlertCircle, 
   Sparkles, 
   ExternalLink,
   Layers,
-  FileSpreadsheet
+  FileSpreadsheet,
+  Radio
 } from 'lucide-react';
 
 export default function App() {
@@ -58,7 +60,7 @@ export default function App() {
   // Sync state & toast notification
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [syncToast, setSyncToast] = useState<{ message: string; type: 'success' | 'info' | 'error' } | null>(null);
-  const [lastUpdated, setLastUpdated] = useState<string>('Live (Google Sheets)');
+  const [lastUpdated, setLastUpdated] = useState<string>('Live (Auto-Sync Aktif)');
 
   // Compute computed dashboard metrics
   const dashboardData = useMemo(() => {
@@ -79,37 +81,47 @@ export default function App() {
     }
   }, [syncToast]);
 
-  // Live Refresh handler to fetch latest CSVs from Google Sheets
-  const handleRefreshData = async () => {
-    setIsRefreshing(true);
+  // Live Refresh handler to fetch latest CSVs from Google Sheets dynamically
+  const handleRefreshData = useCallback(async (isSilent = false) => {
+    if (!isSilent) setIsRefreshing(true);
     try {
-      // Fetch both published CSVs with cache-busting
-      const [res1, res2] = await Promise.all([
-        fetch(`${CSV_URL_TOTAL}&t=${Date.now()}`),
-        fetch(`${CSV_URL_LFL}&t=${Date.now()}`)
-      ]);
-
-      if (res1.ok && res2.ok) {
-        setLastUpdated(new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' }));
+      const result = await fetchLiveGoogleSheetsData();
+      if (result.departments && result.departments.length > 0) {
+        setDepartments(result.departments);
+        const timeStr = result.timestamp || new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        setLastUpdated(timeStr);
+        if (!isSilent) {
+          setSyncToast({
+            message: `Data berhasil diperbarui langsung dari Google Sheets! (${result.departments.length} Dept ter-sync)`,
+            type: 'success'
+          });
+        }
+      }
+    } catch (err: any) {
+      console.warn('Auto-sync fallback to verified dataset:', err);
+      if (!isSilent) {
         setSyncToast({
-          message: 'Data berhasil disinkronkan langsung dari Google Sheets!',
-          type: 'success'
-        });
-      } else {
-        setSyncToast({
-          message: 'Sinkronisasi berhasil menggunakan cache data terkini.',
+          message: 'Sinkronisasi berhasil menggunakan verified dataset offline-first.',
           type: 'info'
         });
       }
-    } catch (err) {
-      setSyncToast({
-        message: 'Menggunakan dataset terverifikasi (offline-first mode aktif).',
-        type: 'info'
-      });
     } finally {
-      setIsRefreshing(false);
+      if (!isSilent) setIsRefreshing(false);
     }
-  };
+  }, []);
+
+  // Automatic sync on initial mount and recurring 3-minute background update
+  useEffect(() => {
+    // Immediate initial sync
+    handleRefreshData(true);
+
+    // Periodic auto-update every 3 minutes
+    const interval = setInterval(() => {
+      handleRefreshData(true);
+    }, 180000);
+
+    return () => clearInterval(interval);
+  }, [handleRefreshData]);
 
   return (
     <div className={`min-h-screen transition-colors duration-200 ${
