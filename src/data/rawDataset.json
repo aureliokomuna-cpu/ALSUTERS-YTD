@@ -4,6 +4,8 @@
     "name": "Sofa & Chair",
     "zoneCode": "LZ",
     "zoneName": "LIVING ZONE",
+    "sqm": 2502,
+    "sqmEks": 2502,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -71,18 +73,18 @@
         "growthPct": 12.9
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 4741200000,
+        "achievement": 3953409716,
+        "achievementPct": 83.4,
         "actualLY": 4406454387,
-        "growthPct": -100
+        "growthPct": -10.3
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 4128400000,
+        "achievement": 4391018673,
+        "achievementPct": 106.4,
         "actualLY": 4134719725,
-        "growthPct": -100
+        "growthPct": 6.2
       },
       "NOVEMBER": {
         "target": 0,
@@ -99,11 +101,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 35952600000,
-        "achievement": 41128193480,
-        "achievementPct": 114.4,
-        "actualLY": 34632372875,
-        "growthPct": 18.8
+        "target": 44822200000,
+        "achievement": 49472621869,
+        "achievementPct": 110.4,
+        "actualLY": 43173546987,
+        "growthPct": 14.6
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 5237029588,
+        "actualLYLFL": 3315020944,
+        "growthPctLFL": 58
+      },
+      "FEBRUARI": {
+        "achievementLFL": 3929743021,
+        "actualLYLFL": 2529434002,
+        "growthPctLFL": 55.4
+      },
+      "MARET": {
+        "achievementLFL": 4570739314,
+        "actualLYLFL": 4105259778,
+        "growthPctLFL": 11.3
+      },
+      "APRIL": {
+        "achievementLFL": 3502261534,
+        "actualLYLFL": 2780035729,
+        "growthPctLFL": 26
+      },
+      "MEI": {
+        "achievementLFL": 3924693501,
+        "actualLYLFL": 2659183817,
+        "growthPctLFL": 47.6
+      },
+      "JUNI": {
+        "achievementLFL": 3079220260,
+        "actualLYLFL": 3524665917,
+        "growthPctLFL": -12.6
+      },
+      "JULI": {
+        "achievementLFL": 2788965682,
+        "actualLYLFL": 2671992247,
+        "growthPctLFL": 4.4
+      },
+      "AGUSTUS": {
+        "achievementLFL": 3379943897,
+        "actualLYLFL": 3328990206,
+        "growthPctLFL": 1.5
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 3429610241,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 3508153709,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 3671241098,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 5069716292,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 24243687218,
+        "actualLYLFL": 18913600187,
+        "growthPctLFL": 28.2
       }
     }
   },
@@ -112,6 +181,8 @@
     "name": "Table & Cabinet",
     "zoneCode": "LZ",
     "zoneName": "LIVING ZONE",
+    "sqm": 857,
+    "sqmEks": 857,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -179,18 +250,18 @@
         "growthPct": 2.3
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1962900000,
+        "achievement": 1601669245,
+        "achievementPct": 81.6,
         "actualLY": 1927028368,
-        "growthPct": -100
+        "growthPct": -16.9
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1623600000,
+        "achievement": 1667294512,
+        "achievementPct": 102.7,
         "actualLY": 1722596912,
-        "growthPct": -100
+        "growthPct": -3.2
       },
       "NOVEMBER": {
         "target": 0,
@@ -207,11 +278,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 15695300000,
-        "achievement": 14934078867,
-        "achievementPct": 95.2,
-        "actualLY": 14434345427,
-        "growthPct": 3.5
+        "target": 19281800000,
+        "achievement": 18203042624,
+        "achievementPct": 94.4,
+        "actualLY": 18083970707,
+        "growthPct": 0.7
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 2228767254,
+        "actualLYLFL": 1918188461,
+        "growthPctLFL": 16.2
+      },
+      "FEBRUARI": {
+        "achievementLFL": 1695848502,
+        "actualLYLFL": 1461290035,
+        "growthPctLFL": 16.1
+      },
+      "MARET": {
+        "achievementLFL": 2196129685,
+        "actualLYLFL": 1810125090,
+        "growthPctLFL": 21.3
+      },
+      "APRIL": {
+        "achievementLFL": 1508477888,
+        "actualLYLFL": 1478675361,
+        "growthPctLFL": 2
+      },
+      "MEI": {
+        "achievementLFL": 1837589819,
+        "actualLYLFL": 1400551860,
+        "growthPctLFL": 31.2
+      },
+      "JUNI": {
+        "achievementLFL": 1636709022,
+        "actualLYLFL": 1819456010,
+        "growthPctLFL": -10
+      },
+      "JULI": {
+        "achievementLFL": 1602092267,
+        "actualLYLFL": 1645049992,
+        "growthPctLFL": -2.6
+      },
+      "AGUSTUS": {
+        "achievementLFL": 1561317114,
+        "actualLYLFL": 1698663272,
+        "growthPctLFL": -8.1
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1817692934,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1609794457,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1789282309,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2767480776,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 11103522170,
+        "actualLYLFL": 9888286817,
+        "growthPctLFL": 12.3
       }
     }
   },
@@ -220,6 +358,8 @@
     "name": "Home Textile",
     "zoneCode": "LZ",
     "zoneName": "LIVING ZONE",
+    "sqm": 823,
+    "sqmEks": 823,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -287,18 +427,18 @@
         "growthPct": 14.8
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 707500000,
+        "achievement": 707527778,
+        "achievementPct": 100,
         "actualLY": 702164012,
-        "growthPct": -100
+        "growthPct": 0.8
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 707300000,
+        "achievement": 732377634,
+        "achievementPct": 103.5,
         "actualLY": 707052819,
-        "growthPct": -100
+        "growthPct": 3.6
       },
       "NOVEMBER": {
         "target": 0,
@@ -315,11 +455,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 6436600000,
-        "achievement": 6665034676,
-        "achievementPct": 103.5,
-        "actualLY": 6083304623,
-        "growthPct": 9.6
+        "target": 7851400000,
+        "achievement": 8104940088,
+        "achievementPct": 103.2,
+        "actualLY": 7492521454,
+        "growthPct": 8.2
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 816066826,
+        "actualLYLFL": 680240627,
+        "growthPctLFL": 20
+      },
+      "FEBRUARI": {
+        "achievementLFL": 744433571,
+        "actualLYLFL": 526307237,
+        "growthPctLFL": 41.4
+      },
+      "MARET": {
+        "achievementLFL": 949958953,
+        "actualLYLFL": 827024466,
+        "growthPctLFL": 14.9
+      },
+      "APRIL": {
+        "achievementLFL": 537376762,
+        "actualLYLFL": 554069222,
+        "growthPctLFL": -3
+      },
+      "MEI": {
+        "achievementLFL": 585715491,
+        "actualLYLFL": 574680507,
+        "growthPctLFL": 1.9
+      },
+      "JUNI": {
+        "achievementLFL": 520882533,
+        "actualLYLFL": 681331286,
+        "growthPctLFL": -23.5
+      },
+      "JULI": {
+        "achievementLFL": 542150942,
+        "actualLYLFL": 637298588,
+        "growthPctLFL": -14.9
+      },
+      "AGUSTUS": {
+        "achievementLFL": 570865233,
+        "actualLYLFL": 669352531,
+        "growthPctLFL": -14.7
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 621246313,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 632437898,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 709137324,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 881604979,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 4154434136,
+        "actualLYLFL": 3843653345,
+        "growthPctLFL": 8.1
       }
     }
   },
@@ -328,6 +535,8 @@
     "name": "Home Decore",
     "zoneCode": "LZ",
     "zoneName": "LIVING ZONE",
+    "sqm": 1192,
+    "sqmEks": 1192,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -395,18 +604,18 @@
         "growthPct": 27.5
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 802600000,
+        "achievement": 796236630,
+        "achievementPct": 99.2,
         "actualLY": 812659243,
-        "growthPct": -100
+        "growthPct": -2
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 957200000,
+        "achievement": 977832757,
+        "achievementPct": 102.2,
         "actualLY": 904524506,
-        "growthPct": -100
+        "growthPct": 8.1
       },
       "NOVEMBER": {
         "target": 0,
@@ -423,11 +632,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 7606400000,
-        "achievement": 7910199179,
-        "achievementPct": 104,
-        "actualLY": 7325556596,
-        "growthPct": 8
+        "target": 9366200000,
+        "achievement": 9684268566,
+        "achievementPct": 103.4,
+        "actualLY": 9042740345,
+        "growthPct": 7.1
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 1022424838,
+        "actualLYLFL": 1047494394,
+        "growthPctLFL": -2.4
+      },
+      "FEBRUARI": {
+        "achievementLFL": 897084296,
+        "actualLYLFL": 738835615,
+        "growthPctLFL": 21.4
+      },
+      "MARET": {
+        "achievementLFL": 1151630613,
+        "actualLYLFL": 972236175,
+        "growthPctLFL": 18.5
+      },
+      "APRIL": {
+        "achievementLFL": 830501534,
+        "actualLYLFL": 705672165,
+        "growthPctLFL": 17.7
+      },
+      "MEI": {
+        "achievementLFL": 929797076,
+        "actualLYLFL": 817251658,
+        "growthPctLFL": 13.8
+      },
+      "JUNI": {
+        "achievementLFL": 677094817,
+        "actualLYLFL": 702524701,
+        "growthPctLFL": -3.6
+      },
+      "JULI": {
+        "achievementLFL": 841348594,
+        "actualLYLFL": 827218418,
+        "growthPctLFL": 1.7
+      },
+      "AGUSTUS": {
+        "achievementLFL": 820596095,
+        "actualLYLFL": 696355269,
+        "growthPctLFL": 17.8
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 754272323,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 827162965,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 845146293,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1086043914,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 5508533174,
+        "actualLYLFL": 4984014708,
+        "growthPctLFL": 10.5
       }
     }
   },
@@ -436,6 +712,8 @@
     "name": "Home Organizer",
     "zoneCode": "LZ",
     "zoneName": "LIVING ZONE",
+    "sqm": 394,
+    "sqmEks": 394,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -503,18 +781,18 @@
         "growthPct": 9
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 604184839,
+        "achievement": 689856063,
+        "achievementPct": 114.2,
         "actualLY": 583748160,
-        "growthPct": -100
+        "growthPct": 18.2
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 506000000,
+        "achievement": 530527910,
+        "achievementPct": 104.8,
         "actualLY": 515326471,
-        "growthPct": -100
+        "growthPct": 2.9
       },
       "NOVEMBER": {
         "target": 0,
@@ -531,11 +809,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 4778800000,
-        "achievement": 4876011101,
-        "achievementPct": 102,
-        "actualLY": 4555960546,
-        "growthPct": 7
+        "target": 5888984839,
+        "achievement": 6096395074,
+        "achievementPct": 103.5,
+        "actualLY": 5655035177,
+        "growthPct": 7.8
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 638887370,
+        "actualLYLFL": 611559629,
+        "growthPctLFL": 4.5
+      },
+      "FEBRUARI": {
+        "achievementLFL": 552479843,
+        "actualLYLFL": 472829303,
+        "growthPctLFL": 16.8
+      },
+      "MARET": {
+        "achievementLFL": 813287515,
+        "actualLYLFL": 721031781,
+        "growthPctLFL": 12.8
+      },
+      "APRIL": {
+        "achievementLFL": 497183516,
+        "actualLYLFL": 502841937,
+        "growthPctLFL": -1.1
+      },
+      "MEI": {
+        "achievementLFL": 506124889,
+        "actualLYLFL": 559560219,
+        "growthPctLFL": -9.5
+      },
+      "JUNI": {
+        "achievementLFL": 557305011,
+        "actualLYLFL": 475777757,
+        "growthPctLFL": 17.1
+      },
+      "JULI": {
+        "achievementLFL": 637331476,
+        "actualLYLFL": 600868002,
+        "growthPctLFL": 6.1
+      },
+      "AGUSTUS": {
+        "achievementLFL": 526070051,
+        "actualLYLFL": 505015164,
+        "growthPctLFL": 4.2
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 571662221,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 499475740,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 536848573,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 715546364,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 3565268144,
+        "actualLYLFL": 3343600626,
+        "growthPctLFL": 6.6
       }
     }
   },
@@ -544,6 +889,8 @@
     "name": "Home Galleria",
     "zoneCode": "SZ",
     "zoneName": "SLEEPING ZONE",
+    "sqm": 493,
+    "sqmEks": 493,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -611,18 +958,18 @@
         "growthPct": -40.1
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 270000000,
+        "achievement": 688645352,
+        "achievementPct": 255.1,
         "actualLY": 623987898,
-        "growthPct": -100
+        "growthPct": 10.4
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 278000000,
+        "achievement": 391223784,
+        "achievementPct": 140.7,
         "actualLY": 559682393,
-        "growthPct": -100
+        "growthPct": -30.1
       },
       "NOVEMBER": {
         "target": 0,
@@ -639,11 +986,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 2162000000,
-        "achievement": 4099535459,
-        "achievementPct": 189.6,
-        "actualLY": 5227236320,
-        "growthPct": -21.6
+        "target": 2710000000,
+        "achievement": 5179404595,
+        "achievementPct": 191.1,
+        "actualLY": 6410906611,
+        "growthPct": -19.2
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 673066414,
+        "actualLYLFL": 589900397,
+        "growthPctLFL": 14.1
+      },
+      "FEBRUARI": {
+        "achievementLFL": 494610084,
+        "actualLYLFL": 459738684,
+        "growthPctLFL": 7.6
+      },
+      "MARET": {
+        "achievementLFL": 273100002,
+        "actualLYLFL": 279929890,
+        "growthPctLFL": -2.4
+      },
+      "APRIL": {
+        "achievementLFL": 392462035,
+        "actualLYLFL": 227747888,
+        "growthPctLFL": 72.3
+      },
+      "MEI": {
+        "achievementLFL": 538091481,
+        "actualLYLFL": 241136678,
+        "growthPctLFL": 123.1
+      },
+      "JUNI": {
+        "achievementLFL": 95886456,
+        "actualLYLFL": 509219257,
+        "growthPctLFL": -81.2
+      },
+      "JULI": {
+        "achievementLFL": 431222484,
+        "actualLYLFL": 408140232,
+        "growthPctLFL": 5.7
+      },
+      "AGUSTUS": {
+        "achievementLFL": 211116603,
+        "actualLYLFL": 353637758,
+        "growthPctLFL": -40.3
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 432787896,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 331751716,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 361095157,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 515202665,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 2467216472,
+        "actualLYLFL": 2307672794,
+        "growthPctLFL": 6.9
       }
     }
   },
@@ -652,6 +1066,8 @@
     "name": "Bathroom",
     "zoneCode": "LZ",
     "zoneName": "LIVING ZONE",
+    "sqm": 43,
+    "sqmEks": 43,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -719,18 +1135,18 @@
         "growthPct": -7.6
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 142500000,
+        "achievement": 142662966,
+        "achievementPct": 100.1,
         "actualLY": 147966619,
-        "growthPct": -100
+        "growthPct": -3.6
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 159900000,
+        "achievement": 215698541,
+        "achievementPct": 134.9,
         "actualLY": 175233974,
-        "growthPct": -100
+        "growthPct": 23.1
       },
       "NOVEMBER": {
         "target": 0,
@@ -747,11 +1163,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 1090500000,
-        "achievement": 1424253764,
-        "achievementPct": 130.6,
-        "actualLY": 1125819850,
-        "growthPct": 26.5
+        "target": 1392900000,
+        "achievement": 1782615271,
+        "achievementPct": 128,
+        "actualLY": 1449020443,
+        "growthPct": 23
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 179331338,
+        "actualLYLFL": 124401100,
+        "growthPctLFL": 44.2
+      },
+      "FEBRUARI": {
+        "achievementLFL": 148157776,
+        "actualLYLFL": 59687315,
+        "growthPctLFL": 148.2
+      },
+      "MARET": {
+        "achievementLFL": 157963883,
+        "actualLYLFL": 77245508,
+        "growthPctLFL": 104.5
+      },
+      "APRIL": {
+        "achievementLFL": 187509110,
+        "actualLYLFL": 61097255,
+        "growthPctLFL": 206.9
+      },
+      "MEI": {
+        "achievementLFL": 152225604,
+        "actualLYLFL": 91662439,
+        "growthPctLFL": 66.1
+      },
+      "JUNI": {
+        "achievementLFL": 141315675,
+        "actualLYLFL": 129018514,
+        "growthPctLFL": 9.5
+      },
+      "JULI": {
+        "achievementLFL": 81999776,
+        "actualLYLFL": 118845945,
+        "growthPctLFL": -31
+      },
+      "AGUSTUS": {
+        "achievementLFL": 176019030,
+        "actualLYLFL": 235552129,
+        "growthPctLFL": -25.3
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 134365898,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 169354560,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 137465241,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 182336758,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 966503386,
+        "actualLYLFL": 543112131,
+        "growthPctLFL": 78
       }
     }
   },
@@ -760,6 +1243,8 @@
     "name": "Dining",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 946,
+    "sqmEks": 946,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -827,18 +1312,18 @@
         "growthPct": 27.7
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2804900000,
+        "achievement": 2404843225,
+        "achievementPct": 85.7,
         "actualLY": 2730839392,
-        "growthPct": -100
+        "growthPct": -11.9
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2607400000,
+        "achievement": 2794335416,
+        "achievementPct": 107.2,
         "actualLY": 2501662354,
-        "growthPct": -100
+        "growthPct": 11.7
       },
       "NOVEMBER": {
         "target": 0,
@@ -855,11 +1340,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 23080200000,
-        "achievement": 23020663312,
-        "achievementPct": 99.7,
-        "actualLY": 20485868865,
-        "growthPct": 12.4
+        "target": 28492500000,
+        "achievement": 28219841953,
+        "achievementPct": 99,
+        "actualLY": 25718370611,
+        "growthPct": 9.7
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 3469833630,
+        "actualLYLFL": 2969163273,
+        "growthPctLFL": 16.9
+      },
+      "FEBRUARI": {
+        "achievementLFL": 2900516424,
+        "actualLYLFL": 2159249543,
+        "growthPctLFL": 34.3
+      },
+      "MARET": {
+        "achievementLFL": 3231109163,
+        "actualLYLFL": 3101419230,
+        "growthPctLFL": 4.2
+      },
+      "APRIL": {
+        "achievementLFL": 1752416420,
+        "actualLYLFL": 2046948351,
+        "growthPctLFL": -14.4
+      },
+      "MEI": {
+        "achievementLFL": 2885450740,
+        "actualLYLFL": 2366987662,
+        "growthPctLFL": 21.9
+      },
+      "JUNI": {
+        "achievementLFL": 2852760458,
+        "actualLYLFL": 2661108871,
+        "growthPctLFL": 7.2
+      },
+      "JULI": {
+        "achievementLFL": 3099060393,
+        "actualLYLFL": 2354409510,
+        "growthPctLFL": 31.6
+      },
+      "AGUSTUS": {
+        "achievementLFL": 2991992817,
+        "actualLYLFL": 2632904273,
+        "growthPctLFL": 13.6
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2400708650,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2221309225,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2432729007,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 3943270519,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 17092086835,
+        "actualLYLFL": 15304876930,
+        "growthPctLFL": 11.7
       }
     }
   },
@@ -868,6 +1420,8 @@
     "name": "Kitchen",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 179,
+    "sqmEks": 179,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -935,18 +1489,18 @@
         "growthPct": 7.7
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 345900000,
+        "achievement": 246008355,
+        "achievementPct": 71.1,
         "actualLY": 339207625,
-        "growthPct": -100
+        "growthPct": -27.5
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 392800000,
+        "achievement": 358891496,
+        "achievementPct": 91.4,
         "actualLY": 390892872,
-        "growthPct": -100
+        "growthPct": -8.2
       },
       "NOVEMBER": {
         "target": 0,
@@ -963,11 +1517,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 3331700000,
-        "achievement": 3463604979,
-        "achievementPct": 104,
-        "actualLY": 3776846996,
-        "growthPct": -8.3
+        "target": 4070400000,
+        "achievement": 4068504830,
+        "achievementPct": 100,
+        "actualLY": 4506947493,
+        "growthPct": -9.7
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 394968516,
+        "actualLYLFL": 424373429,
+        "growthPctLFL": -6.9
+      },
+      "FEBRUARI": {
+        "achievementLFL": 281936660,
+        "actualLYLFL": 202282070,
+        "growthPctLFL": 39.4
+      },
+      "MARET": {
+        "achievementLFL": 253264180,
+        "actualLYLFL": 345179108,
+        "growthPctLFL": -26.6
+      },
+      "APRIL": {
+        "achievementLFL": 466307778,
+        "actualLYLFL": 253162041,
+        "growthPctLFL": 84.2
+      },
+      "MEI": {
+        "achievementLFL": 389431098,
+        "actualLYLFL": 350269180,
+        "growthPctLFL": 11.2
+      },
+      "JUNI": {
+        "achievementLFL": 432058340,
+        "actualLYLFL": 488790800,
+        "growthPctLFL": -11.6
+      },
+      "JULI": {
+        "achievementLFL": 276602005,
+        "actualLYLFL": 383243755,
+        "growthPctLFL": -27.8
+      },
+      "AGUSTUS": {
+        "achievementLFL": 411531465,
+        "actualLYLFL": 340482584,
+        "growthPctLFL": 20.9
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 316338651,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 370123143,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 277503621,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 355834956,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 2217966572,
+        "actualLYLFL": 2064056628,
+        "growthPctLFL": 7.5
       }
     }
   },
@@ -976,6 +1597,8 @@
     "name": "Home Classic",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 1035,
+    "sqmEks": 1035,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1043,18 +1666,18 @@
         "growthPct": -2.8
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1448400000,
+        "achievement": 1118438307,
+        "achievementPct": 77.2,
         "actualLY": 1448444000,
-        "growthPct": -100
+        "growthPct": -22.8
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1092500000,
+        "achievement": 1302068664,
+        "achievementPct": 119.2,
         "actualLY": 1077716941,
-        "growthPct": -100
+        "growthPct": 20.8
       },
       "NOVEMBER": {
         "target": 0,
@@ -1071,11 +1694,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 11360800000,
-        "achievement": 12083762437,
-        "achievementPct": 106.4,
-        "actualLY": 9994890797,
-        "growthPct": 20.9
+        "target": 13901700000,
+        "achievement": 14504269408,
+        "achievementPct": 104.3,
+        "actualLY": 12521051738,
+        "growthPct": 15.8
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 1933660192,
+        "actualLYLFL": 650073022,
+        "growthPctLFL": 197.5
+      },
+      "FEBRUARI": {
+        "achievementLFL": 1526331137,
+        "actualLYLFL": 520302945,
+        "growthPctLFL": 193.4
+      },
+      "MARET": {
+        "achievementLFL": 1612621908,
+        "actualLYLFL": 595761373,
+        "growthPctLFL": 170.7
+      },
+      "APRIL": {
+        "achievementLFL": 1057949633,
+        "actualLYLFL": 604864851,
+        "growthPctLFL": 74.9
+      },
+      "MEI": {
+        "achievementLFL": 1175942955,
+        "actualLYLFL": 516372165,
+        "growthPctLFL": 127.7
+      },
+      "JUNI": {
+        "achievementLFL": 936685320,
+        "actualLYLFL": 927128110,
+        "growthPctLFL": 1
+      },
+      "JULI": {
+        "achievementLFL": 885881057,
+        "actualLYLFL": 878807218,
+        "growthPctLFL": 0.8
+      },
+      "AGUSTUS": {
+        "achievementLFL": 971132935,
+        "actualLYLFL": 1064527983,
+        "growthPctLFL": -8.8
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1256177256,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 912585941,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1356578009,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1973144981,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 8243191145,
+        "actualLYLFL": 3814502466,
+        "growthPctLFL": 116.1
       }
     }
   },
@@ -1084,6 +1774,8 @@
     "name": "Homeware",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 867,
+    "sqmEks": 867,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1151,18 +1843,18 @@
         "growthPct": -32.1
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 708000000,
+        "achievement": 561489991,
+        "achievementPct": 79.3,
         "actualLY": 741407818,
-        "growthPct": -100
+        "growthPct": -24.3
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 795500000,
+        "achievement": 669747780,
+        "achievementPct": 84.2,
         "actualLY": 734317207,
-        "growthPct": -100
+        "growthPct": -8.8
       },
       "NOVEMBER": {
         "target": 0,
@@ -1179,11 +1871,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 6952000000,
-        "achievement": 7694404096,
-        "achievementPct": 110.7,
-        "actualLY": 7485064420,
-        "growthPct": 2.8
+        "target": 8455500000,
+        "achievement": 8925641867,
+        "achievementPct": 105.6,
+        "actualLY": 8960789445,
+        "growthPct": -0.4
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 856928061,
+        "actualLYLFL": 694299490,
+        "growthPctLFL": 23.4
+      },
+      "FEBRUARI": {
+        "achievementLFL": 949876379,
+        "actualLYLFL": 504073849,
+        "growthPctLFL": 88.4
+      },
+      "MARET": {
+        "achievementLFL": 1453325613,
+        "actualLYLFL": 1137903180,
+        "growthPctLFL": 27.7
+      },
+      "APRIL": {
+        "achievementLFL": 620041637,
+        "actualLYLFL": 621746979,
+        "growthPctLFL": -0.3
+      },
+      "MEI": {
+        "achievementLFL": 643149000,
+        "actualLYLFL": 555503045,
+        "growthPctLFL": 15.8
+      },
+      "JUNI": {
+        "achievementLFL": 583945263,
+        "actualLYLFL": 440641937,
+        "growthPctLFL": 32.5
+      },
+      "JULI": {
+        "achievementLFL": 561503227,
+        "actualLYLFL": 611837917,
+        "growthPctLFL": -8.2
+      },
+      "AGUSTUS": {
+        "achievementLFL": 522337943,
+        "actualLYLFL": 578295371,
+        "growthPctLFL": -9.7
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 657384010,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 665895676,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 722502359,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1036133460,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 5107265953,
+        "actualLYLFL": 3954168480,
+        "growthPctLFL": 29.2
       }
     }
   },
@@ -1192,6 +1951,8 @@
     "name": "Decorative Lighting",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 120,
+    "sqmEks": 120,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1259,18 +2020,18 @@
         "growthPct": 13.7
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 251300000,
+        "achievement": 252004547,
+        "achievementPct": 100.3,
         "actualLY": 240575418,
-        "growthPct": -100
+        "growthPct": 4.8
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 225300000,
+        "achievement": 193696160,
+        "achievementPct": 86,
         "actualLY": 219498432,
-        "growthPct": -100
+        "growthPct": -11.8
       },
       "NOVEMBER": {
         "target": 0,
@@ -1287,11 +2048,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 1896500000,
-        "achievement": 1914550059,
-        "achievementPct": 101,
-        "actualLY": 1772127297,
-        "growthPct": 8
+        "target": 2373100000,
+        "achievement": 2360250766,
+        "achievementPct": 99.5,
+        "actualLY": 2232201147,
+        "growthPct": 5.7
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 247253917,
+        "actualLYLFL": 262460093,
+        "growthPctLFL": -5.8
+      },
+      "FEBRUARI": {
+        "achievementLFL": 230217206,
+        "actualLYLFL": 169727121,
+        "growthPctLFL": 35.6
+      },
+      "MARET": {
+        "achievementLFL": 239869033,
+        "actualLYLFL": 225726790,
+        "growthPctLFL": 6.3
+      },
+      "APRIL": {
+        "achievementLFL": 185140632,
+        "actualLYLFL": 150078771,
+        "growthPctLFL": 23.4
+      },
+      "MEI": {
+        "achievementLFL": 242138682,
+        "actualLYLFL": 217000243,
+        "growthPctLFL": 11.6
+      },
+      "JUNI": {
+        "achievementLFL": 170246589,
+        "actualLYLFL": 172543036,
+        "growthPctLFL": -1.3
+      },
+      "JULI": {
+        "achievementLFL": 163325584,
+        "actualLYLFL": 251464703,
+        "growthPctLFL": -35.1
+      },
+      "AGUSTUS": {
+        "achievementLFL": 190657997,
+        "actualLYLFL": 206545514,
+        "growthPctLFL": -7.7
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 227518569,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 203095438,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 227785076,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 301566074,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 1314866059,
+        "actualLYLFL": 1197536054,
+        "growthPctLFL": 9.8
       }
     }
   },
@@ -1300,6 +2128,8 @@
     "name": "KELS - Major Domestic Appliances",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 29,
+    "sqmEks": 29,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1367,18 +2197,18 @@
         "growthPct": 0
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 53000000,
+        "achievement": 38992342,
+        "achievementPct": 73.6,
         "actualLY": 57626302,
-        "growthPct": -100
+        "growthPct": -32.3
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 26200000,
+        "achievement": 54069369,
+        "achievementPct": 206.4,
         "actualLY": 25542830,
-        "growthPct": -100
+        "growthPct": 111.7
       },
       "NOVEMBER": {
         "target": 0,
@@ -1395,11 +2225,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 165600000,
-        "achievement": 184672375,
-        "achievementPct": 111.5,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 244800000,
+        "achievement": 277734086,
+        "achievementPct": 113.5,
+        "actualLY": 83169132,
+        "growthPct": 233.9
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 28387045,
+        "actualLYLFL": 31618560,
+        "growthPctLFL": -10.2
+      },
+      "FEBRUARI": {
+        "achievementLFL": 23909576,
+        "actualLYLFL": 26139405,
+        "growthPctLFL": -8.5
+      },
+      "MARET": {
+        "achievementLFL": 23561539,
+        "actualLYLFL": 26166775,
+        "growthPctLFL": -10
+      },
+      "APRIL": {
+        "achievementLFL": 22929758,
+        "actualLYLFL": 7873910,
+        "growthPctLFL": 191.2
+      },
+      "MEI": {
+        "achievementLFL": 32967567,
+        "actualLYLFL": 31872973,
+        "growthPctLFL": 3.4
+      },
+      "JUNI": {
+        "achievementLFL": 23591892,
+        "actualLYLFL": 22185685,
+        "growthPctLFL": 6.3
+      },
+      "JULI": {
+        "achievementLFL": 28686531,
+        "actualLYLFL": 28212254,
+        "growthPctLFL": 1.7
+      },
+      "AGUSTUS": {
+        "achievementLFL": 43819917,
+        "actualLYLFL": 57227355,
+        "growthPctLFL": -23.4
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 46732589,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 22706343,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 10825182,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 15989188,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 155347377,
+        "actualLYLFL": 145857308,
+        "growthPctLFL": 6.5
       }
     }
   },
@@ -1408,6 +2305,8 @@
     "name": "KELS - Small Domestic Appliances",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 116,
+    "sqmEks": 116,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1475,18 +2374,18 @@
         "growthPct": 0
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 159800000,
+        "achievement": 220419604,
+        "achievementPct": 137.9,
         "actualLY": 136131257,
-        "growthPct": -100
+        "growthPct": 61.9
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 117600000,
+        "achievement": 185066847,
+        "achievementPct": 157.4,
         "actualLY": 124283575,
-        "growthPct": -100
+        "growthPct": 48.9
       },
       "NOVEMBER": {
         "target": 0,
@@ -1503,11 +2402,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 583500000,
-        "achievement": 861147218,
-        "achievementPct": 147.6,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 860900000,
+        "achievement": 1266633669,
+        "achievementPct": 147.1,
+        "actualLY": 260414832,
+        "growthPct": 386.4
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 150609621,
+        "actualLYLFL": 119714743,
+        "growthPctLFL": 25.8
+      },
+      "FEBRUARI": {
+        "achievementLFL": 131474876,
+        "actualLYLFL": 94454493,
+        "growthPctLFL": 39.2
+      },
+      "MARET": {
+        "achievementLFL": 171955524,
+        "actualLYLFL": 174402240,
+        "growthPctLFL": -1.4
+      },
+      "APRIL": {
+        "achievementLFL": 132936676,
+        "actualLYLFL": 99745782,
+        "growthPctLFL": 33.3
+      },
+      "MEI": {
+        "achievementLFL": 148589297,
+        "actualLYLFL": 99576009,
+        "growthPctLFL": 49.2
+      },
+      "JUNI": {
+        "achievementLFL": 137798285,
+        "actualLYLFL": 113261604,
+        "growthPctLFL": 21.7
+      },
+      "JULI": {
+        "achievementLFL": 136533907,
+        "actualLYLFL": 98779610,
+        "growthPctLFL": 38.2
+      },
+      "AGUSTUS": {
+        "achievementLFL": 154523917,
+        "actualLYLFL": 120700237,
+        "growthPctLFL": 28
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 126347473,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 118901288,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 124192870,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 179344579,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 873364279,
+        "actualLYLFL": 701154871,
+        "growthPctLFL": 24.6
       }
     }
   },
@@ -1516,6 +2482,8 @@
     "name": "KELS - Health Care",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 116,
+    "sqmEks": 116,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1583,18 +2551,18 @@
         "growthPct": 0
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 261400000,
+        "achievement": 108455225,
+        "achievementPct": 41.5,
         "actualLY": 263035528,
-        "growthPct": -100
+        "growthPct": -58.8
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 121100000,
+        "achievement": 144604865,
+        "achievementPct": 119.4,
         "actualLY": 165184825,
-        "growthPct": -100
+        "growthPct": -12.5
       },
       "NOVEMBER": {
         "target": 0,
@@ -1611,11 +2579,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 725600000,
-        "achievement": 682823334,
-        "achievementPct": 94.1,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 1108100000,
+        "achievement": 935883424,
+        "achievementPct": 84.5,
+        "actualLY": 428220353,
+        "growthPct": 118.6
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 239977766,
+        "actualLYLFL": 227237747,
+        "growthPctLFL": 5.6
+      },
+      "FEBRUARI": {
+        "achievementLFL": 149848281,
+        "actualLYLFL": 183001479,
+        "growthPctLFL": -18.1
+      },
+      "MARET": {
+        "achievementLFL": 156685640,
+        "actualLYLFL": 185208320,
+        "growthPctLFL": -15.4
+      },
+      "APRIL": {
+        "achievementLFL": 37556081,
+        "actualLYLFL": 188531846,
+        "growthPctLFL": -80.1
+      },
+      "MEI": {
+        "achievementLFL": 141066399,
+        "actualLYLFL": 112455122,
+        "growthPctLFL": 25.4
+      },
+      "JUNI": {
+        "achievementLFL": 132059370,
+        "actualLYLFL": 97784576,
+        "growthPctLFL": 35.1
+      },
+      "JULI": {
+        "achievementLFL": 40044071,
+        "actualLYLFL": 133991624,
+        "growthPctLFL": -70.1
+      },
+      "AGUSTUS": {
+        "achievementLFL": 131187830,
+        "actualLYLFL": 142509861,
+        "growthPctLFL": -7.9
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 251696315,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 162398339,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 162635825,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 240958207,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 857193537,
+        "actualLYLFL": 994219090,
+        "growthPctLFL": -13.8
       }
     }
   },
@@ -1624,6 +2659,8 @@
     "name": "KELS - Beauty Care",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
+    "sqm": 13,
+    "sqmEks": 13,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1691,18 +2728,18 @@
         "growthPct": 0
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 11100000,
+        "achievement": 8412703,
+        "achievementPct": 75.8,
         "actualLY": 13790090,
-        "growthPct": -100
+        "growthPct": -39
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 10800000,
+        "achievement": 6106577,
+        "achievementPct": 56.5,
         "actualLY": 11949633,
-        "growthPct": -100
+        "growthPct": -48.9
       },
       "NOVEMBER": {
         "target": 0,
@@ -1719,11 +2756,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 63400000,
-        "achievement": 58373757,
-        "achievementPct": 92.1,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 85300000,
+        "achievement": 72893037,
+        "achievementPct": 85.5,
+        "actualLY": 25739723,
+        "growthPct": 183.2
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 15535255,
+        "actualLYLFL": 18414236,
+        "growthPctLFL": -15.6
+      },
+      "FEBRUARI": {
+        "achievementLFL": 12139189,
+        "actualLYLFL": 22586791,
+        "growthPctLFL": -46.3
+      },
+      "MARET": {
+        "achievementLFL": 10805046,
+        "actualLYLFL": 24424769,
+        "growthPctLFL": -55.8
+      },
+      "APRIL": {
+        "achievementLFL": 13382611,
+        "actualLYLFL": 14016972,
+        "growthPctLFL": -4.5
+      },
+      "MEI": {
+        "achievementLFL": 10833226,
+        "actualLYLFL": 8273241,
+        "growthPctLFL": 30.9
+      },
+      "JUNI": {
+        "achievementLFL": 10746666,
+        "actualLYLFL": 9117684,
+        "growthPctLFL": 17.9
+      },
+      "JULI": {
+        "achievementLFL": 13401888,
+        "actualLYLFL": 10614047,
+        "growthPctLFL": 26.3
+      },
+      "AGUSTUS": {
+        "achievementLFL": 8562251,
+        "actualLYLFL": 16862815,
+        "growthPctLFL": -49.2
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 11476577,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 10496931,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 17022772,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 19858533,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 73441993,
+        "actualLYLFL": 96833693,
+        "growthPctLFL": -24.2
       }
     }
   },
@@ -1732,7 +2836,9 @@
     "name": "All Kels",
     "zoneCode": "DZ",
     "zoneName": "DINING ZONE",
-    "isZoneTotal": false,
+    "sqm": 274,
+    "sqmEks": 274,
+    "isZoneTotal": true,
     "isGrandTotal": false,
     "monthly": {
       "JANUARI": {
@@ -1799,18 +2905,18 @@
         "growthPct": 0
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 485300000,
+        "achievement": 376279874,
+        "achievementPct": 77.5,
         "actualLY": 470583177,
-        "growthPct": -100
+        "growthPct": -20
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 275700000,
+        "achievement": 389847658,
+        "achievementPct": 141.4,
         "actualLY": 326960863,
-        "growthPct": -100
+        "growthPct": 19.2
       },
       "NOVEMBER": {
         "target": 0,
@@ -1827,11 +2933,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 1538100000,
-        "achievement": 1787016685,
-        "achievementPct": 116.2,
-        "actualLY": 0,
-        "growthPct": 0
+        "target": 2299100000,
+        "achievement": 2553144217,
+        "achievementPct": 111,
+        "actualLY": 797544040,
+        "growthPct": 220.1
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 434509687,
+        "actualLYLFL": 396985286,
+        "growthPctLFL": 9.5
+      },
+      "FEBRUARI": {
+        "achievementLFL": 317371922,
+        "actualLYLFL": 326182168,
+        "growthPctLFL": -2.7
+      },
+      "MARET": {
+        "achievementLFL": 363007749,
+        "actualLYLFL": 410202104,
+        "growthPctLFL": -11.5
+      },
+      "APRIL": {
+        "achievementLFL": 206805126,
+        "actualLYLFL": 310168510,
+        "growthPctLFL": -33.3
+      },
+      "MEI": {
+        "achievementLFL": 333456489,
+        "actualLYLFL": 252177345,
+        "growthPctLFL": 32.2
+      },
+      "JUNI": {
+        "achievementLFL": 304196213,
+        "actualLYLFL": 242349549,
+        "growthPctLFL": 25.5
+      },
+      "JULI": {
+        "achievementLFL": 218666397,
+        "actualLYLFL": 271597535,
+        "growthPctLFL": -19.5
+      },
+      "AGUSTUS": {
+        "achievementLFL": 338093915,
+        "actualLYLFL": 337300268,
+        "growthPctLFL": 0.2
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 436252954,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 314502901,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 314676649,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 456150507,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 1959347186,
+        "actualLYLFL": 1938064962,
+        "growthPctLFL": 1.1
       }
     }
   },
@@ -1840,6 +3013,8 @@
     "name": "Office",
     "zoneCode": "CZ",
     "zoneName": "COMMERCIAL ZONE",
+    "sqm": 871,
+    "sqmEks": 871,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -1907,18 +3082,18 @@
         "growthPct": 74.7
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2016700000,
+        "achievement": 2620671315,
+        "achievementPct": 129.9,
         "actualLY": 1830671697,
-        "growthPct": -100
+        "growthPct": 43.2
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2408800000,
+        "achievement": 1633389527,
+        "achievementPct": 67.8,
         "actualLY": 2393951870,
-        "growthPct": -100
+        "growthPct": -31.8
       },
       "NOVEMBER": {
         "target": 0,
@@ -1935,11 +3110,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 15779800000,
-        "achievement": 13932035748,
-        "achievementPct": 88.3,
-        "actualLY": 13562110893,
-        "growthPct": 2.7
+        "target": 20205300000,
+        "achievement": 18186096590,
+        "achievementPct": 90,
+        "actualLY": 17786734460,
+        "growthPct": 2.2
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 1617321763,
+        "actualLYLFL": 1642039652,
+        "growthPctLFL": -1.5
+      },
+      "FEBRUARI": {
+        "achievementLFL": 1508202607,
+        "actualLYLFL": 1360922924,
+        "growthPctLFL": 10.8
+      },
+      "MARET": {
+        "achievementLFL": 1378014614,
+        "actualLYLFL": 1464519540,
+        "growthPctLFL": -5.9
+      },
+      "APRIL": {
+        "achievementLFL": 1466181127,
+        "actualLYLFL": 1455283247,
+        "growthPctLFL": 0.7
+      },
+      "MEI": {
+        "achievementLFL": 1593175236,
+        "actualLYLFL": 1436831286,
+        "growthPctLFL": 10.9
+      },
+      "JUNI": {
+        "achievementLFL": 1616343017,
+        "actualLYLFL": 3044333781,
+        "growthPctLFL": -46.9
+      },
+      "JULI": {
+        "achievementLFL": 1778763293,
+        "actualLYLFL": 2130560397,
+        "growthPctLFL": -16.5
+      },
+      "AGUSTUS": {
+        "achievementLFL": 1556688224,
+        "actualLYLFL": 1746051367,
+        "growthPctLFL": -10.8
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1648855065,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2211880299,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1762231557,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2533551700,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 9179238364,
+        "actualLYLFL": 10403930430,
+        "growthPctLFL": -11.8
       }
     }
   },
@@ -1948,6 +3190,8 @@
     "name": "Office Seating",
     "zoneCode": "CZ",
     "zoneName": "COMMERCIAL ZONE",
+    "sqm": 425,
+    "sqmEks": 425,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2015,18 +3259,18 @@
         "growthPct": -7.8
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2074200000,
+        "achievement": 2520955317,
+        "achievementPct": 121.5,
         "actualLY": 2020602994,
-        "growthPct": -100
+        "growthPct": 24.8
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2364400000,
+        "achievement": 1826565717,
+        "achievementPct": 77.3,
         "actualLY": 2365295621,
-        "growthPct": -100
+        "growthPct": -22.8
       },
       "NOVEMBER": {
         "target": 0,
@@ -2043,11 +3287,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 19147900000,
-        "achievement": 18429775317,
-        "achievementPct": 96.2,
-        "actualLY": 22175487868,
-        "growthPct": -16.9
+        "target": 23586500000,
+        "achievement": 22777296351,
+        "achievementPct": 96.6,
+        "actualLY": 26561386483,
+        "growthPct": -14.2
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 2217715256,
+        "actualLYLFL": 2086234943,
+        "growthPctLFL": 6.3
+      },
+      "FEBRUARI": {
+        "achievementLFL": 1101920065,
+        "actualLYLFL": 1413936341,
+        "growthPctLFL": -22.1
+      },
+      "MARET": {
+        "achievementLFL": 1380536662,
+        "actualLYLFL": 1664174701,
+        "growthPctLFL": -17
+      },
+      "APRIL": {
+        "achievementLFL": 1436050720,
+        "actualLYLFL": 1650646102,
+        "growthPctLFL": -13
+      },
+      "MEI": {
+        "achievementLFL": 1796524890,
+        "actualLYLFL": 1594963020,
+        "growthPctLFL": 12.6
+      },
+      "JUNI": {
+        "achievementLFL": 2938807590,
+        "actualLYLFL": 2416662614,
+        "growthPctLFL": 21.6
+      },
+      "JULI": {
+        "achievementLFL": 1948949062,
+        "actualLYLFL": 1854876055,
+        "growthPctLFL": 5.1
+      },
+      "AGUSTUS": {
+        "achievementLFL": 1684619507,
+        "actualLYLFL": 1693731410,
+        "growthPctLFL": -0.5
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1880268398,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2198237463,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2269021363,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2349792856,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 10871555183,
+        "actualLYLFL": 10826617721,
+        "growthPctLFL": 0.4
       }
     }
   },
@@ -2056,6 +3367,8 @@
     "name": "Commercial & Business",
     "zoneCode": "CZ",
     "zoneName": "COMMERCIAL ZONE",
+    "sqm": 452,
+    "sqmEks": 452,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2123,18 +3436,18 @@
         "growthPct": 26.5
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2143900000,
+        "achievement": 2323979631,
+        "achievementPct": 108.4,
         "actualLY": 1934289381,
-        "growthPct": -100
+        "growthPct": 20.1
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1550100000,
+        "achievement": 2035102317,
+        "achievementPct": 131.3,
         "actualLY": 1367489058,
-        "growthPct": -100
+        "growthPct": 48.8
       },
       "NOVEMBER": {
         "target": 0,
@@ -2151,11 +3464,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 18450700000,
-        "achievement": 19026567727,
-        "achievementPct": 103.1,
-        "actualLY": 19401391850,
-        "growthPct": -1.9
+        "target": 22144700000,
+        "achievement": 23385649675,
+        "achievementPct": 105.6,
+        "actualLY": 22703170289,
+        "growthPct": 3
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 2680438378,
+        "actualLYLFL": 1299712103,
+        "growthPctLFL": 106.2
+      },
+      "FEBRUARI": {
+        "achievementLFL": 1980852398,
+        "actualLYLFL": 1574218685,
+        "growthPctLFL": 25.8
+      },
+      "MARET": {
+        "achievementLFL": 2791336649,
+        "actualLYLFL": 2913303456,
+        "growthPctLFL": -4.2
+      },
+      "APRIL": {
+        "achievementLFL": 2221194895,
+        "actualLYLFL": 626001961,
+        "growthPctLFL": 254.8
+      },
+      "MEI": {
+        "achievementLFL": 1692816969,
+        "actualLYLFL": 1490016623,
+        "growthPctLFL": 13.6
+      },
+      "JUNI": {
+        "achievementLFL": 1798964602,
+        "actualLYLFL": 2381525519,
+        "growthPctLFL": -24.5
+      },
+      "JULI": {
+        "achievementLFL": 2302525311,
+        "actualLYLFL": 2516460883,
+        "growthPctLFL": -8.5
+      },
+      "AGUSTUS": {
+        "achievementLFL": 2068672661,
+        "actualLYLFL": 1245217787,
+        "growthPctLFL": 66.1
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1724775712,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1212232519,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1850885421,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2259563249,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 13165603891,
+        "actualLYLFL": 10284778347,
+        "growthPctLFL": 28
       }
     }
   },
@@ -2164,6 +3544,8 @@
     "name": "Bedroom",
     "zoneCode": "SZ",
     "zoneName": "SLEEPING ZONE",
+    "sqm": 855,
+    "sqmEks": 751,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2231,18 +3613,18 @@
         "growthPct": 14.4
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2346900000,
+        "achievement": 1920296976,
+        "achievementPct": 81.8,
         "actualLY": 2327886919,
-        "growthPct": -100
+        "growthPct": -17.5
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 2093100000,
+        "achievement": 2409251586,
+        "achievementPct": 115.1,
         "actualLY": 2075743372,
-        "growthPct": -100
+        "growthPct": 16.1
       },
       "NOVEMBER": {
         "target": 0,
@@ -2259,11 +3641,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 19024200000,
-        "achievement": 19471032563,
-        "achievementPct": 102.3,
-        "actualLY": 16953531221,
-        "growthPct": 14.8
+        "target": 23464200000,
+        "achievement": 23800581125,
+        "achievementPct": 101.4,
+        "actualLY": 21357161512,
+        "growthPct": 11.4
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 2397548696,
+        "actualLYLFL": 1688957167,
+        "growthPctLFL": 42
+      },
+      "FEBRUARI": {
+        "achievementLFL": 2040935513,
+        "actualLYLFL": 1635317163,
+        "growthPctLFL": 24.8
+      },
+      "MARET": {
+        "achievementLFL": 2108112027,
+        "actualLYLFL": 1817921985,
+        "growthPctLFL": 16
+      },
+      "APRIL": {
+        "achievementLFL": 2521325135,
+        "actualLYLFL": 1826645124,
+        "growthPctLFL": 38
+      },
+      "MEI": {
+        "achievementLFL": 2267589916,
+        "actualLYLFL": 2027696950,
+        "growthPctLFL": 11.8
+      },
+      "JUNI": {
+        "achievementLFL": 2265318556,
+        "actualLYLFL": 2228727288,
+        "growthPctLFL": 1.6
+      },
+      "JULI": {
+        "achievementLFL": 2078070520,
+        "actualLYLFL": 1999675513,
+        "growthPctLFL": 3.9
+      },
+      "AGUSTUS": {
+        "achievementLFL": 2249757700,
+        "actualLYLFL": 2465361377,
+        "growthPctLFL": -8.7
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1978773758,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1771941633,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1886883680,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 2995147772,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 13600829843,
+        "actualLYLFL": 11225265677,
+        "growthPctLFL": 21.2
       }
     }
   },
@@ -2272,6 +3721,8 @@
     "name": "Kids Space",
     "zoneCode": "SZ",
     "zoneName": "SLEEPING ZONE",
+    "sqm": 457,
+    "sqmEks": 457,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2339,18 +3790,18 @@
         "growthPct": 12.9
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 633600000,
+        "achievement": 692315504,
+        "achievementPct": 109.3,
         "actualLY": 626826052,
-        "growthPct": -100
+        "growthPct": 10.4
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 392700000,
+        "achievement": 555205950,
+        "achievementPct": 141.4,
         "actualLY": 523964862,
-        "growthPct": -100
+        "growthPct": 6
       },
       "NOVEMBER": {
         "target": 0,
@@ -2367,11 +3818,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 5655900000,
-        "achievement": 6122278910,
-        "achievementPct": 108.2,
-        "actualLY": 5961393840,
-        "growthPct": 2.7
+        "target": 6682200000,
+        "achievement": 7369800364,
+        "achievementPct": 110.3,
+        "actualLY": 7112184754,
+        "growthPct": 3.6
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 759621817,
+        "actualLYLFL": 349409891,
+        "growthPctLFL": 117.4
+      },
+      "FEBRUARI": {
+        "achievementLFL": 490481149,
+        "actualLYLFL": 323658077,
+        "growthPctLFL": 51.5
+      },
+      "MARET": {
+        "achievementLFL": 440367525,
+        "actualLYLFL": 398226537,
+        "growthPctLFL": 10.6
+      },
+      "APRIL": {
+        "achievementLFL": 454462128,
+        "actualLYLFL": 487179400,
+        "growthPctLFL": -6.7
+      },
+      "MEI": {
+        "achievementLFL": 641313956,
+        "actualLYLFL": 605331350,
+        "growthPctLFL": 5.9
+      },
+      "JUNI": {
+        "achievementLFL": 591787598,
+        "actualLYLFL": 633113637,
+        "growthPctLFL": -6.5
+      },
+      "JULI": {
+        "achievementLFL": 721947890,
+        "actualLYLFL": 651407460,
+        "growthPctLFL": 10.8
+      },
+      "AGUSTUS": {
+        "achievementLFL": 535583941,
+        "actualLYLFL": 510442123,
+        "growthPctLFL": 4.9
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 540787162,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 479866334,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 455044291,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 604456599,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 3378034173,
+        "actualLYLFL": 2796918892,
+        "growthPctLFL": 20.8
       }
     }
   },
@@ -2380,6 +3898,8 @@
     "name": "Mattress",
     "zoneCode": "SZ",
     "zoneName": "SLEEPING ZONE",
+    "sqm": 310,
+    "sqmEks": 392,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2447,18 +3967,18 @@
         "growthPct": -7.2
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1067100000,
+        "achievement": 1109133964,
+        "achievementPct": 103.9,
         "actualLY": 992808028,
-        "growthPct": -100
+        "growthPct": 11.7
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1209800000,
+        "achievement": 1198718014,
+        "achievementPct": 99.1,
         "actualLY": 1144666115,
-        "growthPct": -100
+        "growthPct": 4.7
       },
       "NOVEMBER": {
         "target": 0,
@@ -2475,11 +3995,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 9991300000,
-        "achievement": 11057116352,
-        "achievementPct": 110.7,
-        "actualLY": 10612555850,
-        "growthPct": 4.2
+        "target": 12268200000,
+        "achievement": 13364968330,
+        "achievementPct": 108.9,
+        "actualLY": 12750029993,
+        "growthPct": 4.8
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 1461774700,
+        "actualLYLFL": 961479930,
+        "growthPctLFL": 52
+      },
+      "FEBRUARI": {
+        "achievementLFL": 827047177,
+        "actualLYLFL": 810064909,
+        "growthPctLFL": 2.1
+      },
+      "MARET": {
+        "achievementLFL": 1143359713,
+        "actualLYLFL": 1296584967,
+        "growthPctLFL": -11.8
+      },
+      "APRIL": {
+        "achievementLFL": 1131636974,
+        "actualLYLFL": 967464210,
+        "growthPctLFL": 17
+      },
+      "MEI": {
+        "achievementLFL": 1434385804,
+        "actualLYLFL": 979986249,
+        "growthPctLFL": 46.4
+      },
+      "JUNI": {
+        "achievementLFL": 1107517839,
+        "actualLYLFL": 1125445536,
+        "growthPctLFL": -1.6
+      },
+      "JULI": {
+        "achievementLFL": 1073410495,
+        "actualLYLFL": 976446146,
+        "growthPctLFL": 9.9
+      },
+      "AGUSTUS": {
+        "achievementLFL": 991276755,
+        "actualLYLFL": 1018382249,
+        "growthPctLFL": -2.7
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 887877667,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1092836060,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1122551915,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1360205120,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 7105722207,
+        "actualLYLFL": 6141025801,
+        "growthPctLFL": 15.7
       }
     }
   },
@@ -2488,6 +4075,8 @@
     "name": "Textile Bedding",
     "zoneCode": "SZ",
     "zoneName": "SLEEPING ZONE",
+    "sqm": 516,
+    "sqmEks": 516,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2555,18 +4144,18 @@
         "growthPct": -3.7
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1030600000,
+        "achievement": 1008846741,
+        "achievementPct": 97.9,
         "actualLY": 984246591,
-        "growthPct": -100
+        "growthPct": 2.5
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 1032400000,
+        "achievement": 1011436841,
+        "achievementPct": 98,
         "actualLY": 1001883382,
-        "growthPct": -100
+        "growthPct": 1
       },
       "NOVEMBER": {
         "target": 0,
@@ -2583,11 +4172,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 8761200000,
-        "achievement": 9158537680,
-        "achievementPct": 104.5,
-        "actualLY": 8722444279,
-        "growthPct": 5
+        "target": 10824200000,
+        "achievement": 11178821262,
+        "achievementPct": 103.3,
+        "actualLY": 10708574252,
+        "growthPct": 4.4
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 1159884679,
+        "actualLYLFL": 772202805,
+        "growthPctLFL": 50.2
+      },
+      "FEBRUARI": {
+        "achievementLFL": 922464251,
+        "actualLYLFL": 631920086,
+        "growthPctLFL": 46
+      },
+      "MARET": {
+        "achievementLFL": 1017721816,
+        "actualLYLFL": 842474909,
+        "growthPctLFL": 20.8
+      },
+      "APRIL": {
+        "achievementLFL": 842100189,
+        "actualLYLFL": 670661730,
+        "growthPctLFL": 25.6
+      },
+      "MEI": {
+        "achievementLFL": 993903782,
+        "actualLYLFL": 819994742,
+        "growthPctLFL": 21.2
+      },
+      "JUNI": {
+        "achievementLFL": 922705139,
+        "actualLYLFL": 750536904,
+        "growthPctLFL": 22.9
+      },
+      "JULI": {
+        "achievementLFL": 877203386,
+        "actualLYLFL": 841194841,
+        "growthPctLFL": 4.3
+      },
+      "AGUSTUS": {
+        "achievementLFL": 931777790,
+        "actualLYLFL": 990123178,
+        "growthPctLFL": -5.9
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 852250441,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 923769143,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 803570838,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 1144300670,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 5858779856,
+        "actualLYLFL": 4487791176,
+        "growthPctLFL": 30.5
       }
     }
   },
@@ -2596,6 +4252,8 @@
     "name": "Custom Furniture",
     "zoneCode": "ICF",
     "zoneName": "ICF ZONE",
+    "sqm": 259,
+    "sqmEks": 259,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2663,18 +4321,18 @@
         "growthPct": -64.1
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 685000000,
+        "achievement": 28632649,
+        "achievementPct": 4.2,
         "actualLY": 383504303,
-        "growthPct": -100
+        "growthPct": -92.5
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 650000000,
+        "achievement": 137568851,
+        "achievementPct": 21.2,
         "actualLY": 221735197,
-        "growthPct": -100
+        "growthPct": -38
       },
       "NOVEMBER": {
         "target": 0,
@@ -2691,11 +4349,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 4122000000,
-        "achievement": 2895050599,
-        "achievementPct": 70.2,
-        "actualLY": 4186972679,
-        "growthPct": -30.9
+        "target": 5457000000,
+        "achievement": 3061252099,
+        "achievementPct": 56.1,
+        "actualLY": 4792212179,
+        "growthPct": -36.1
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 0,
+        "actualLYLFL": 36337117,
+        "growthPctLFL": -100
+      },
+      "FEBRUARI": {
+        "achievementLFL": 28492252,
+        "actualLYLFL": 58530091,
+        "growthPctLFL": -51.3
+      },
+      "MARET": {
+        "achievementLFL": 73437432,
+        "actualLYLFL": 198649151,
+        "growthPctLFL": -63
+      },
+      "APRIL": {
+        "achievementLFL": 3322072,
+        "actualLYLFL": 6184685,
+        "growthPctLFL": -46.3
+      },
+      "MEI": {
+        "achievementLFL": 306196112,
+        "actualLYLFL": 9363604,
+        "growthPctLFL": 3170.1
+      },
+      "JUNI": {
+        "achievementLFL": 2599910,
+        "actualLYLFL": 4411711,
+        "growthPctLFL": -41.1
+      },
+      "JULI": {
+        "achievementLFL": 1260360,
+        "actualLYLFL": 124790375,
+        "growthPctLFL": -99
+      },
+      "AGUSTUS": {
+        "achievementLFL": 0,
+        "actualLYLFL": 4329279,
+        "growthPctLFL": -100
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 14843243,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 7421621,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 10513964,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 5999593,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 414047778,
+        "actualLYLFL": 313476359,
+        "growthPctLFL": 32.1
       }
     }
   },
@@ -2704,6 +4429,8 @@
     "name": "COMSER & FURNIPRO",
     "zoneCode": "ICF",
     "zoneName": "ICF ZONE",
+    "sqm": 0,
+    "sqmEks": 0,
     "isZoneTotal": false,
     "isGrandTotal": false,
     "monthly": {
@@ -2771,18 +4498,18 @@
         "growthPct": 31.4
       },
       "SEPTEMBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 327400000,
+        "achievement": 308176497,
+        "achievementPct": 94.1,
         "actualLY": 237594317,
-        "growthPct": -100
+        "growthPct": 29.7
       },
       "OKTOBER": {
-        "target": 0,
-        "achievement": 0,
-        "achievementPct": 0,
+        "target": 263300000,
+        "achievement": 280461700,
+        "achievementPct": 106.5,
         "actualLY": 233870029,
-        "growthPct": -100
+        "growthPct": 19.9
       },
       "NOVEMBER": {
         "target": 0,
@@ -2799,11 +4526,78 @@
         "growthPct": -100
       },
       "YTD": {
-        "target": 2052300000,
-        "achievement": 2471468938,
-        "achievementPct": 120.4,
-        "actualLY": 1991303499,
-        "growthPct": 24.1
+        "target": 2643000000,
+        "achievement": 3060107135,
+        "achievementPct": 115.8,
+        "actualLY": 2462767845,
+        "growthPct": 24.3
+      }
+    },
+    "lfl": {
+      "JANUARI": {
+        "achievementLFL": 284114592,
+        "actualLYLFL": 176503784,
+        "growthPctLFL": 61
+      },
+      "FEBRUARI": {
+        "achievementLFL": 292555223,
+        "actualLYLFL": 265448831,
+        "growthPctLFL": 10.2
+      },
+      "MARET": {
+        "achievementLFL": 308397389,
+        "actualLYLFL": 307122124,
+        "growthPctLFL": 0.4
+      },
+      "APRIL": {
+        "achievementLFL": 247409509,
+        "actualLYLFL": 210908925,
+        "growthPctLFL": 17.3
+      },
+      "MEI": {
+        "achievementLFL": 295089310,
+        "actualLYLFL": 227122056,
+        "growthPctLFL": 29.9
+      },
+      "JUNI": {
+        "achievementLFL": 276831568,
+        "actualLYLFL": 252448663,
+        "growthPctLFL": 9.7
+      },
+      "JULI": {
+        "achievementLFL": 315313909,
+        "actualLYLFL": 262531342,
+        "growthPctLFL": 20.1
+      },
+      "AGUSTUS": {
+        "achievementLFL": 302243693,
+        "actualLYLFL": 258346609,
+        "growthPctLFL": 17
+      },
+      "SEPTEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 236531254,
+        "growthPctLFL": -100
+      },
+      "OKTOBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 232377237,
+        "growthPctLFL": -100
+      },
+      "NOVEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 261179375,
+        "growthPctLFL": -100
+      },
+      "DESEMBER": {
+        "achievementLFL": 0,
+        "actualLYLFL": 333369936,
+        "growthPctLFL": -100
+      },
+      "YTD": {
+        "achievementLFL": 1704397591,
+        "actualLYLFL": 1439554383,
+        "growthPctLFL": 18.4
       }
     }
   }

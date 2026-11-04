@@ -135,6 +135,11 @@ export const DEPARTMENT_SQM: Record<string, { sqmEks: number; sqmRelayout: numbe
   AJ: { sqmEks: 0, sqmRelayout: 0 }
 };
 
+/**
+ * Total Luasan Area Store ALSUTERS (18.346 m²)
+ */
+export const TOTAL_STORE_SQM = 18346;
+
 export function getDeptSQM(code: string): number {
   return DEPARTMENT_SQM[code]?.sqmRelayout ?? 0;
 }
@@ -164,7 +169,7 @@ export function getActiveMonths(departments: DepartmentItem[]): MonthKey[] {
     }
   });
 
-  return active.length > 0 ? active : ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS'];
+  return active.length > 0 ? active : ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER'];
 }
 
 /**
@@ -243,13 +248,18 @@ export function calculateGroupPeriodProductivity(
   depts: DepartmentItem[],
   period: PeriodSelection,
   activeMonths: MonthKey[] = MONTH_KEYS,
-  mode: 'TOTAL_RESTATED' | 'LIKE_FOR_LIKE' = 'TOTAL_RESTATED'
+  mode: 'TOTAL_RESTATED' | 'LIKE_FOR_LIKE' = 'TOTAL_RESTATED',
+  customTotalSqm?: number
 ): { totalSqm: number; avgMonthlyProductivity: number } {
   let totalSqm = 0;
-  depts.forEach(d => {
-    const dSqm = d.sqm ?? DEPARTMENT_SQM[d.code]?.sqmRelayout ?? 0;
-    totalSqm += dSqm;
-  });
+  if (customTotalSqm && customTotalSqm > 0) {
+    totalSqm = customTotalSqm;
+  } else {
+    depts.forEach(d => {
+      const dSqm = d.sqm ?? DEPARTMENT_SQM[d.code]?.sqmRelayout ?? 0;
+      totalSqm += dSqm;
+    });
+  }
 
   if (totalSqm <= 0) return { totalSqm: 0, avgMonthlyProductivity: 0 };
 
@@ -354,13 +364,19 @@ export function formatIDR(value: number, compact = false): string {
   return `${isNegative ? '-' : ''}Rp ${new Intl.NumberFormat('id-ID').format(absVal)}`;
 }
 
-/**
- * Format percentage
- */
 export function formatPct(value: number, showSign = false): string {
   if (isNaN(value)) return '0.0%';
   const sign = showSign && value > 0 ? '+' : '';
   return `${sign}${value.toFixed(1)}%`;
+}
+
+/**
+ * Format percentage rounded to whole integer (standard executive BI reporting)
+ */
+export function formatPctRounded(value: number, showSign = false): string {
+  if (isNaN(value)) return '0%';
+  const sign = showSign && value > 0 ? '+' : '';
+  return `${sign}${Math.round(value)}%`;
 }
 
 /**
@@ -457,8 +473,8 @@ export function getPerformanceStatus(achievementPct: number): StatusCategory {
  * Compute aggregated KPI summaries for active filters
  */
 export function computeDashboardData(items: DepartmentItem[], filter: FilterState) {
-  // Individual departmental units (excluding zone totals and grand total)
-  const regularDepts = items.filter(i => !i.isZoneTotal && !i.isGrandTotal);
+  // Individual departmental units (excluding zone totals, grand total, and rollup ALL KELS)
+  const regularDepts = items.filter(i => !i.isZoneTotal && !i.isGrandTotal && i.code !== 'ALL KELS');
 
   const activeMonths = getActiveMonths(items);
 
@@ -514,7 +530,10 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
   const growthAmount = totalAchv - totalActLY;
 
   // Space Productivity for All Store / filtered selection (Average Monthly Sales / SQM)
-  const globalProdInfo = calculateGroupPeriodProductivity(filteredDepts, filter.period, activeMonths, 'TOTAL_RESTATED');
+  // When viewing All Store without specific zone or department filters, use official TOTAL_STORE_SQM = 18.346 m²
+  const isAllStore = filter.zoneCode === 'ALL' && filter.departmentCode === 'ALL' && !filter.searchQuery.trim() && filter.statusFilter === 'ALL';
+  const customSqm = isAllStore ? TOTAL_STORE_SQM : undefined;
+  const globalProdInfo = calculateGroupPeriodProductivity(filteredDepts, filter.period, activeMonths, 'TOTAL_RESTATED', customSqm);
   const totalSqm = globalProdInfo.totalSqm;
   const spaceProductivity = globalProdInfo.avgMonthlyProductivity;
 

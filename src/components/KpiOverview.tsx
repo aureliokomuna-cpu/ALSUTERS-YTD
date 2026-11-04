@@ -15,6 +15,7 @@ import { FilterState, GlobalKPISummary } from '../types';
 import { 
   formatIDR, 
   formatPct, 
+  formatPctRounded,
   formatProductivity, 
   formatSQM, 
   getProductivityColorClass, 
@@ -49,16 +50,28 @@ export const KpiOverview: React.FC<KpiOverviewProps> = ({
             : 'bg-white border-zinc-200 shadow-xs'
         }`}
       >
-        <span className="text-zinc-500 text-xs font-semibold uppercase tracking-widest">
-          Total Achievement {filter.period}
-        </span>
-        
-        <div className="flex items-baseline gap-2 mt-1">
-          <span className={`text-4xl font-bold ${isDarkMode ? 'text-white' : 'text-zinc-900'}`}>
-            {formatPct(summary.achievementPct)}
+        <div className="flex items-center justify-between">
+          <span className="text-zinc-500 text-xs font-semibold uppercase tracking-widest">
+            Total Achievement {filter.period}
           </span>
-          <span className="text-zinc-500 text-sm">
-            of {formatIDR(summary.target, true)} target
+          <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
+            isAchieved 
+              ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' 
+              : 'bg-rose-500/10 text-rose-400 border border-rose-500/20'
+          }`}>
+            {isAchieved ? 'ON TRACK' : 'NEEDS ATTENTION'}
+          </span>
+        </div>
+        
+        <div className="flex items-baseline gap-2 mt-1 flex-wrap">
+          <span className={`text-4xl font-bold ${isDarkMode ? 'text-white' : 'text-zinc-900'}`} title={`Exact: ${summary.achievementPct.toFixed(2)}%`}>
+            {formatPctRounded(summary.achievementPct)}
+          </span>
+          <span className={`text-sm font-semibold ${isDarkMode ? 'text-zinc-400' : 'text-zinc-600'}`}>
+            ({formatPct(summary.achievementPct)})
+          </span>
+          <span className="text-zinc-500 text-xs ml-auto">
+            Target: {formatIDR(summary.target, true)}
           </span>
         </div>
 

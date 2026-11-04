@@ -321,7 +321,7 @@ export function parseGoogleSheetsCsv(csvTotal: string, csvLfl?: string): Departm
       zoneName: mapping.zoneName,
       sqm: sqmInfo.sqmRelayout,
       sqmEks: sqmInfo.sqmEks,
-      isZoneTotal: false,
+      isZoneTotal: code === 'ALL KELS',
       isGrandTotal: false,
       monthly: monthly as any,
       lfl: Object.keys(lfl).length > 0 ? lfl : undefined
@@ -386,5 +386,5 @@ export function getActiveMonths(departments: DepartmentItem[]): MonthKey[] {
     }
   });
 
-  return active.length > 0 ? active : ALL_MONTH_KEYS.slice(0, 8); // Default Jan - Agu
+  return active.length > 0 ? active : ALL_MONTH_KEYS.slice(0, 10); // Default Jan - Okt
 }
