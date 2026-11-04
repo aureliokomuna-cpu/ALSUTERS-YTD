@@ -10,6 +10,7 @@ import {
   TrendingUp
 } from 'lucide-react';
 import { FilterState } from '../types';
+import { formatSQM, TOTAL_STORE_SQM } from '../data/dataset';
 
 interface HeaderProps {
   filter: FilterState;
@@ -53,7 +54,7 @@ export const Header: React.FC<HeaderProps> = ({
               <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-mono font-medium ${
                 isDarkMode ? 'bg-zinc-800 text-zinc-300 border border-zinc-700' : 'bg-zinc-100 text-zinc-700 border border-zinc-200'
               }`} title="Total Luasan Area Store ALSUTERS">
-                18.346 m²
+                {formatSQM(TOTAL_STORE_SQM)}
               </span>
               <span className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${
                 isDarkMode ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-emerald-50 text-emerald-600 border border-emerald-200'

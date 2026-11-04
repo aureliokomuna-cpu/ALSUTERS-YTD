@@ -136,9 +136,9 @@ export const DEPARTMENT_SQM: Record<string, { sqmEks: number; sqmRelayout: numbe
 };
 
 /**
- * Total Luasan Area Store ALSUTERS (18.346 m²)
+ * Total Luasan Area Store ALSUTERS (18.858,58 m²)
  */
-export const TOTAL_STORE_SQM = 18346;
+export const TOTAL_STORE_SQM = 18858.58;
 
 export function getDeptSQM(code: string): number {
   return DEPARTMENT_SQM[code]?.sqmRelayout ?? 0;
@@ -289,7 +289,11 @@ export function calculateGroupPeriodProductivity(
  */
 export function formatSQM(sqm: number): string {
   if (sqm === 0 || isNaN(sqm)) return '0 m²';
-  return `${new Intl.NumberFormat('id-ID').format(Math.round(sqm))} m²`;
+  const hasDecimals = sqm % 1 !== 0;
+  return `${new Intl.NumberFormat('id-ID', {
+    minimumFractionDigits: hasDecimals ? 2 : 0,
+    maximumFractionDigits: 2
+  }).format(sqm)} m²`;
 }
 
 /**
@@ -530,7 +534,7 @@ export function computeDashboardData(items: DepartmentItem[], filter: FilterStat
   const growthAmount = totalAchv - totalActLY;
 
   // Space Productivity for All Store / filtered selection (Average Monthly Sales / SQM)
-  // When viewing All Store without specific zone or department filters, use official TOTAL_STORE_SQM = 18.346 m²
+  // When viewing All Store without specific zone or department filters, use official TOTAL_STORE_SQM = 18.858,58 m²
   const isAllStore = filter.zoneCode === 'ALL' && filter.departmentCode === 'ALL' && !filter.searchQuery.trim() && filter.statusFilter === 'ALL';
   const customSqm = isAllStore ? TOTAL_STORE_SQM : undefined;
   const globalProdInfo = calculateGroupPeriodProductivity(filteredDepts, filter.period, activeMonths, 'TOTAL_RESTATED', customSqm);
